@@ -8,6 +8,10 @@ h1 {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 #Container {
     border-radius: 15px;
     background-color: #fcfcfc;
@@ -15,4 +19,8 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+}
+
+.center-text {
+    text-align: center;
 }
