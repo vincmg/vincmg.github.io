@@ -37,3 +37,8 @@ a {
 .center-text {
     text-align: center;
 }
+
+#footer {
+    text-align: center;
+    font-size: 12px;
+}
