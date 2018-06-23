@@ -200,7 +200,7 @@ function load_bandcamp_embed(element, album_embed) {
       <td>${album.name}</td>
       <td>${formatted_info}</td>
       <td>
-        <img id="album_${i}" src="${album.art}" alt="${album.name}">
+        <img class="album-art" id="album_${i}" src="${album.art}" alt="${album.name}">
       </td>
     </tr>`;
   }
