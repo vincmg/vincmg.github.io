@@ -84,7 +84,6 @@ function load_bandcamp_embed(element, compo_embed) {
 }
 
 (function make_compo_table(reverse) {
-  // TODO: make it so that clicking on art loads embedded player
   let table_list = reverse ? compo_list.reverse() : compo_list;
   let table = document.getElementById("compilations");
   table.innerHTML += `
@@ -95,8 +94,8 @@ function load_bandcamp_embed(element, compo_embed) {
     <th>art</th>
   </tr>`;
 
-  for (let i = 0; i < compo_list.length; i++) {
-    let compo = compo_list[i];
+  for (let i = 0; i < table_list.length; i++) {
+    let compo = table_list[i];
     let formatted_info = compo.info.replace(/\n/g, '<br>')
     table.innerHTML += `
     <tr>
@@ -109,10 +108,10 @@ function load_bandcamp_embed(element, compo_embed) {
     </tr>`;
   }
 
-  for (let i = 0; i < compo_list.length; i++) {
+  for (let i = 0; i < table_list.length; i++) {
     let img = document.getElementById("compo_" + i);
     img.addEventListener("click", () => {
-      load_bandcamp_embed(img, compo_list[i].embed);
+      load_bandcamp_embed(img, table_list[i].embed);
     });
   }
 })(true);

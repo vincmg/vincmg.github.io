@@ -175,11 +175,16 @@ const releases_list = [
   },
 ];
 
-(function make_album_table(reverse) {
+// have to copy paste this from compo_table.js because ES6 module imports are not supported???
+function load_bandcamp_embed(element, compo_embed) {
+    let td_parent = element.parentElement;
+    td_parent.innerHTML = compo_embed;
+}
+
+(function make_compo_table(reverse) {
   let table_list = reverse ? releases_list.reverse() : releases_list;
-  // TODO: make it so that clicking on art loads embedded player
-  let table = document.getElementById("releases");
-  let table_html = `
+  let table = document.getElementById("compilations");
+  table.innerHTML += `
   <tr> 
     <th>date</th>
     <th>name</th>
@@ -187,16 +192,24 @@ const releases_list = [
     <th>art</th>
   </tr>`;
 
-  for (let release of table_list) {
-    let formatted_info = release.info.replace(/\n/g, '<br>')
-    table_html += `
+  for (let i = 0; i < table_list.length; i++) {
+    let compo = table_list[i];
+    let formatted_info = compo.info.replace(/\n/g, '<br>')
+    table.innerHTML += `
     <tr>
-      <td>${release.date}</td>
-      <td>${release.name}</td>
+      <td>${compo.date}</td>
+      <td>${compo.name}</td>
       <td>${formatted_info}</td>
-      <td><img src="${release.art}" alt="${releases.name}"></td>
+      <td>
+        <img id=compo_${i} src="${compo.art}" alt="${compo.name}">
+      </td>
     </tr>`;
   }
 
-  table.innerHTML = table_html;
+  for (let i = 0; i < table_list.length; i++) {
+    let img = document.getElementById("compo_" + i);
+    img.addEventListener("click", () => {
+      load_bandcamp_embed(img, table_list[i].embed);
+    });
+  }
 })(true);
