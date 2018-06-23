@@ -91,7 +91,7 @@ function load_bandcamp_embed(element, compo_embed) {
     <th>date</th>
     <th>name</th>
     <th>info</th>
-    <th>art</th>
+    <th>art <br> (click to play)</th>
   </tr>`;
 
   for (let i = 0; i < table_list.length; i++) {
