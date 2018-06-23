@@ -50,6 +50,10 @@ hr {
     padding: 10px;
 }
 
+.album-art {
+    cursor: pointer;
+}
+
 a[id*=toggle] {
     color: blue;
     cursor: pointer;
@@ -78,4 +82,23 @@ div#banner h1 {
 #footer {
     text-align: center;
     font-size: 12px;
+}
+
+#top-button {
+    display: none; 
+    position: fixed; 
+    bottom: -5px; 
+    right: 10px; 
+    z-index: 99; 
+    border: 1px solid grey;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+#top-button:hover {
+    opacity: 0.5;
+    transition: opacity 0.2s;
 }
