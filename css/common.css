@@ -15,18 +15,30 @@ a {
 #Container {
     border-radius: 15px;
     background-color: #fcfcfc;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stuff {
+    display: inline-flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.music-list-container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .music-list {
-    margin-left: auto;
-    margin-right: auto;
     border-collapse: collapse;
-    display: block;
+    display: none;
 }
+
+.music-list th:first-child{width: 24%}
+.music-list th:last-child{width: 10%}
+.music-list th:not(:first-child):not(:last-child){width: 33%;}
 
 .music-list th, .music-list td {
     border: 1px solid black;
