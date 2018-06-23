@@ -15,19 +15,22 @@ a {
 #Container {
     border-radius: 15px;
     background-color: #fcfcfc;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
     padding: 20px;
 }
 
-.music-list {
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
+.music-list-container {
     width: 80%;
-    display: block;
+    margin: 0 auto;
 }
+
+.music-list {
+    border-collapse: collapse;
+    display: none;
+}
+
+.music-list th:first-child{width: 24%}
+.music-list th:last-child{width: 10%}
+.music-list th:not(:first-child):not(:last-child){width: 33%;}
 
 .music-list th, .music-list td {
     border: 1px solid black;
