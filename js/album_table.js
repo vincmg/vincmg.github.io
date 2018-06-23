@@ -175,8 +175,8 @@ const releases_list = [
   },
 ];
 
-(function make_album_table() {
-  let releases_reversed = releases_list.reverse();
+(function make_album_table(reverse) {
+  let table_list = reverse ? releases_list.reverse() : releases_list;
   // TODO: make it so that clicking on art loads embedded player
   let table = document.getElementById("releases");
   let table_html = `
@@ -187,7 +187,7 @@ const releases_list = [
     <th>art</th>
   </tr>`;
 
-  for (let release of releases_reversed) {
+  for (let release of table_list) {
     let formatted_info = release.info.replace(/\n/g, '<br>')
     table_html += `
     <tr>
@@ -199,4 +199,4 @@ const releases_list = [
   }
 
   table.innerHTML = table_html;
-})();
+})(true);

@@ -78,8 +78,9 @@ const compo_list = [
   },
 ];
 
-(function make_compo_table() {
+(function make_compo_table(reverse) {
   // TODO: make it so that clicking on art loads embedded player
+  let table_list = reverse ? compo_list.reverse() : compo_list;
   let table = document.getElementById("compilations");
   let table_html = `
   <tr> 
@@ -89,7 +90,7 @@ const compo_list = [
     <th>art</th>
   </tr>`;
 
-  for (let compo of compo_list) {
+  for (let compo of table_list) {
     let formatted_info = compo.info.replace(/\n/g, '<br>')
     table_html += `
     <tr>
@@ -101,4 +102,4 @@ const compo_list = [
   }
 
   table.innerHTML = table_html;
-})();
+})(true);
