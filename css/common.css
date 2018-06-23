@@ -55,6 +55,22 @@ a[id*=toggle] {
     cursor: pointer;
 }
 
+div#banner {
+    background-image: url(../img/freqfest_orig.jpg);
+    background-repeat: no-repeat;
+    background-position: center 42%;
+    background-size: 90%;
+    padding: 40px;
+    margin: 0 20px;
+}
+
+div#banner h1 {
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: left;
+    margin-left: 20%;
+}
+
 .center-text {
     text-align: center;
 }
