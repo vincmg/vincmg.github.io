@@ -78,11 +78,16 @@ const compo_list = [
   },
 ];
 
+function load_bandcamp_embed(element, compo_embed) {
+    let td_parent = element.parentElement;
+    td_parent.innerHTML = compo_embed;
+}
+
 (function make_compo_table(reverse) {
   // TODO: make it so that clicking on art loads embedded player
   let table_list = reverse ? compo_list.reverse() : compo_list;
   let table = document.getElementById("compilations");
-  let table_html = `
+  table.innerHTML += `
   <tr> 
     <th>date</th>
     <th>name</th>
@@ -90,16 +95,24 @@ const compo_list = [
     <th>art</th>
   </tr>`;
 
-  for (let compo of table_list) {
+  for (let i = 0; i < compo_list.length; i++) {
+    let compo = compo_list[i];
     let formatted_info = compo.info.replace(/\n/g, '<br>')
-    table_html += `
+    table.innerHTML += `
     <tr>
       <td>${compo.date}</td>
       <td>${compo.name}</td>
       <td>${formatted_info}</td>
-      <td><img src="${compo.art}" alt="${compo.name}"></td>
+      <td>
+        <img id=compo_${i} src="${compo.art}" alt="${compo.name}">
+      </td>
     </tr>`;
   }
 
-  table.innerHTML = table_html;
+  for (let i = 0; i < compo_list.length; i++) {
+    let img = document.getElementById("compo_" + i);
+    img.addEventListener("click", () => {
+      load_bandcamp_embed(img, compo_list[i].embed);
+    });
+  }
 })(true);

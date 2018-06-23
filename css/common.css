@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+hr {
+    width: 100%;
+}
+
 #Container {
     border-radius: 15px;
     background-color: #fcfcfc;
@@ -45,11 +49,6 @@ a {
     vertical-align: top;
     padding: 10px;
 }
-
-.music-list th:nth-child(1) { width: 13%; }
-.music-list th:nth-child(2) { width: 33%; }
-.music-list th:nth-child(3) { width: 42%; }
-.music-list th:nth-child(4) { width: 10%; }
 
 .center-text {
     text-align: center;
