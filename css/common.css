@@ -16,6 +16,14 @@ a {
     border-radius: 15px;
     background-color: #fcfcfc;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stuff {
+    display: inline-flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .music-list-container {
