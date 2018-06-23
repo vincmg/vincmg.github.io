@@ -73,7 +73,7 @@ const compo_list = [
     date: "2017 Aug 11",
     name: "Chiptunes = WIN: Volume 6",
     info: "Vince Kaichan - Mistral",
-    art: "img/chipwin_vol6_200px_.jpg",
+    art: "img/chipwin_vol6_200px.jpg",
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1677762460/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/chiptunes-win-volume-6">Chiptunes = WIN: Volume 6 by Chiptunes = WIN</a></iframe>`
   },
 ];
