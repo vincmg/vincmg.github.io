@@ -2,14 +2,14 @@ const compo_list = [
   {
     date: "2012 Dec 10",
     name: "chipWINter",
-    info: "Vince Kaichan - Midnight Snowflake. Made in SunVox",
+    info: "Vince Kaichan - Midnight Snowflake. made in SunVox",
     art: "img/chipwinter_200px.jpg",
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1014498065/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=41518200/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/chipwinter">chipWINter by Vince Kaichan</a></iframe>`
   },
   {
     date: "2013 Jul 15",
     name: "Chiptunes = WIN: Volume 2",
-    info: "Vince Kaichan - Iskloo Dandruff/Morningstar Express. Made in LSDJ",
+    info: "Vince Kaichan - Iskloo Dandruff/Morningstar Express. made in LSDJ",
     art: "img/chipwin_vol2_200px.jpg",
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1124851379/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=3645337766/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/chiptunes-win-volume-2-2">Chiptunes = WIN: Volume 2 by Vince Kaichan</a></iframe>`
   },
@@ -89,8 +89,8 @@ function load_bandcamp_embed(element, compo_embed) {
   table.innerHTML += `
   <tr> 
     <th>date</th>
-    <th>name</th>
-    <th>info</th>
+    <th>compilation name</th>
+    <th>track title</th>
     <th>art <br> (click to play)</th>
   </tr>`;
 

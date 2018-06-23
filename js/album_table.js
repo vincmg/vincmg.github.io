@@ -1,10 +1,10 @@
 const releases_list = [
   {
-    date: "2011 Oct 31",
+    date: "2011 oct 31",
     name: "[PB053] Focal Point",
-    info: `Made with LSDJ. Released on PxlBot.
+    info: `made with LSDJ, released on PxlBot. this was while i still called myself VCMG, before <a href="http://mute.com/vcmg/vince-clarke-and-martin-l-gore-announce-details-of-brand-new-collaboration">i had to switch to a different name</a>.
 
-    Tracklist:
+    tracklist:
       1. Introduction [2xLSDJ]
       2. Waking Up in the Perseids
       3. Surmounting the Highest of Peaks
@@ -18,11 +18,11 @@ const releases_list = [
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=2179651411/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://vcmg.bandcamp.com/album/pb053-focal-point">[PB053] Focal Point by VCMG</a></iframe>`
   },
   {
-    date: "2012 Mar 13",
+    date: "2012 mar 13",
     name: "Journey",
-    info: `Made with LSDJ.
+    info: `made with LSDJ.
 
-    Tracklist:
+    tracklist:
       1. Magma Mountain
       2. Dream Flight
       3. Escape!
@@ -34,11 +34,11 @@ const releases_list = [
       embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1777657369/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://vincekaichan.bandcamp.com/album/journey">Journey by Vince Kaichan</a></iframe>`
   },
   {
-    date: "2012 May 27",
+    date: "2012 may 27",
     name: "Earthshine",
-    info: `Made with Sunvox.
+    info: `made with Sunvox.
 
-    Tracklist:
+    tracklist:
       1. Earthshine 1
       2. Earthshine 2
       3. Lune 1
@@ -47,11 +47,11 @@ const releases_list = [
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=2104456738/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://vincekaichan.bandcamp.com/album/earthshine">Earthshine by Vince Kaichan</a></iframe>`
   },
   {
-    date: "2012 Aug 24",
+    date: "2012 aug 24",
     name: "On Thin Air",
-    info: `Made with Sunvox.
+    info: `made with Sunvox.
 
-    Tracklist:
+    tracklist:
       1. Northern Lights
       2. Summit
       3. Binary Lake
@@ -60,11 +60,11 @@ const releases_list = [
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=2904628331/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://vincekaichan.bandcamp.com/album/on-thin-air">On Thin Air by Vince Kaichan</a></iframe>`
   },
   {
-    date: "2013 Mar 14",
+    date: "2013 mar 14",
     name: "Rising",
-    info: `Made with LSDJ.
+    info: `made with LSDJ.
 
-    Tracklist:
+    tracklist:
       1. Dusk
       2. Rising
       3. Latino Sango
@@ -78,11 +78,11 @@ const releases_list = [
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=3166464315/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://vincekaichan.bandcamp.com/album/rising">Rising by Vince Kaichan</a></iframe>`
   },
   {
-    date: "2014 Jan 25",
+    date: "2014 jan 25",
     name: "Ilio",
-    info: `Made with LSDJ.
+    info: `made with LSDJ.
 
-    Tracklist:
+    tracklist:
       1. Iremia
       2. Kazan
       3. Saraday
@@ -97,11 +97,11 @@ const releases_list = [
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=508154942/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://vincekaichan.bandcamp.com/album/ilio">Ilio by Vince Kaichan</a></iframe>`
   },
   {
-    date: "2014 Aug 11",
+    date: "2014 aug 11",
     name: "Yolanda",
-    info: `Made with LSDJ. Released on The Waveform Generators.
+    info: `made with LSDJ, released on The Waveform Generators.
 
-    Tracklist:
+    tracklist:
       1. Yolanda
       2. Viverra
       3. Novaton
@@ -110,11 +110,11 @@ const releases_list = [
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=829773174/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://vincekaichan.bandcamp.com/album/yolanda">Yolanda by Vince Kaichan</a></iframe>`
   },
   {
-    date: "2015 Apr 30",
+    date: "2015 apr 30",
     name: "Sunday Groove",
-    info: `Made with OpenMPT. Released on Cheapbeats.
+    info: `released on cheapbeats.
 
-    Tracklist:
+    tracklist:
       1. C Jones
       2. F Phunk
       3. Sideway Street
@@ -125,11 +125,11 @@ const releases_list = [
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=3162550582/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://cheapbeatsmusic.bandcamp.com/album/sunday-groove">Sunday Groove by Vince Kaichan</a></iframe>`
   },
   {
-    date: "2015 July 13",
+    date: "2015 july 13",
     name: "Power Tricks",
-    info: `Made with LSDJ. Released on Cheapbeats.
+    info: `made with LSDJ, released on cheapbeats.
 
-    Tracklist:
+    tracklist:
       1. Illjoy
       2. Core Corrupt
       3. Ignition 8
@@ -140,11 +140,11 @@ const releases_list = [
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=3573188025/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://cheapbeatsmusic.bandcamp.com/album/power-tricks">Power Tricks by Vince Kaichan</a></iframe>`
   },
   {
-    date: "2016 Nov 11",
+    date: "2016 nov 11",
     name: "Midsummer Days",
-    info: `Made with OpenMPT. Released on DESKPOP.
+    info: `released on DESKPOP.
 
-    Tracklist:
+    tracklist:
       1. Shangri-La Dreaming
       2. Mirage
       3. Cruising Deep Pacifica
@@ -156,12 +156,11 @@ const releases_list = [
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=550935571/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://vincekaichan.bandcamp.com/album/midsummer-days">Midsummer Days by Vince Kaichan</a></iframe>`
   },
   {
-    date: "2018 Apr 30",
-    name: "DOUBLE TAKE - 4MEN430",
-    info: `4MEN430 is Vince Kaichan x golgi x j yoshi x Sinc-X. 
-    Made with OpenMPT.
+    date: "2018 apr 30",
+    name: "4MEN430 - DOUBLE TAKE",
+    info: `a collaboration with golgi, j yoshi, and Sinc-X under the name of 4MEN430.
 
-    Tracklist:
+    tracklist:
       1. Return to the Boneyard
       2. Overture to a Great Day
       3. The Earth is a Hecatonicosachoron
