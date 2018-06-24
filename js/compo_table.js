@@ -1,5 +1,12 @@
 const compo_list = [
   {
+    date: "2012 Apr 21",
+    name: "Chip for Cancer vol. 1",
+    info: "Vince Kaichan - Neolectrical. made in LSDJ",
+    art: "img/chip_for_cancer_200px.jpg",
+    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=3520397300/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=289297633/transparent=true/" seamless><a href="http://chipforcancer.bandcamp.com/album/chip-for-cancer-vol-i">Chip for Cancer [vol. I] by Chip for Cancer</a></iframe>`
+  },
+  {
     date: "2012 Dec 10",
     name: "chipWINter",
     info: "Vince Kaichan - Midnight Snowflake. made in SunVox",
