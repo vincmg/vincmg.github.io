@@ -14,6 +14,13 @@ const compo_list = [
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1014498065/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=41518200/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/chipwinter">chipWINter by Vince Kaichan</a></iframe>`
   },
   {
+    date: "2013 Jan 4",
+    name: "Weekly Treats 2013",
+    info: "Vince Kaichan - Dog Days. made in LSDJ",
+    art: "img/dog_days_200px.jpg",
+    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=4081551513/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=287675554/transparent=true/" seamless><a href="http://weeklytreats.bandcamp.com/album/2013">2013 by Vince Kaichan</a></iframe>`
+  },
+  {
     date: "2013 Jul 15",
     name: "Chiptunes = WIN: Volume 2",
     info: "Vince Kaichan - Iskloo Dandruff/Morningstar Express. made in LSDJ",
