@@ -13,3 +13,4 @@ function toggle_list(id) {
 
 document.getElementById("releases-toggle").onclick = () => { toggle_list("releases") };
 document.getElementById("compos-toggle").onclick = () => { toggle_list("compilations") };
+document.getElementById("misc-toggle").onclick = () => { toggle_list("misc-songs") };
