@@ -29,10 +29,15 @@ hr {
     flex-direction: column;
 }
 
+.nav-buttons {
+    font-size: 20px;
+}
+
 .stuff {
     display: inline-flex;
     flex-direction: column;
     align-self: center;
+    width: 100%;
 }
 
 .music-list-container {

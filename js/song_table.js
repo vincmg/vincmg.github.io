@@ -354,7 +354,7 @@ const song_list = [
     <tr>
       <td>${song.name}</td>
       <td>${formatted_info}</td>
-      <td><a href="${song.link}">download</a></td>
+      <td><a href="${song.link}">download coming soon</a></td>
     </tr>`;
   }
 })(false); // do alphabetical order
