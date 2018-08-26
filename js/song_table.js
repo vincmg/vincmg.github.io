@@ -95,6 +95,11 @@ const song_list = [
     link: "TODO"
   },
   {
+    name: "fingerpainting",
+    info: "first song with renoise ever, using mostly builtin sounds",
+    link: "TODO"
+  },
+  {
     name: "geoconstruct 1998",
     info: "my entry for round 4 of s3xmoditmania V. came in 1st place",
     link: "TODO"
@@ -137,6 +142,11 @@ const song_list = [
   {
     name: "instruMENTAL main bgm",
     info: "in-game bgm loop for Global Game Jam 2017",
+    link: "TODO"
+  },
+  {
+    name: "Interplanetary Pidgeon main bgm",
+    info: "in-game bgm loop for Global Game Jam 2018",
     link: "TODO"
   },
   {
@@ -212,6 +222,11 @@ const song_list = [
   {
     name: "park bench with little mushroom",
     info: "a song about a park bench with a little mushroom on a warm summer day",
+    link: "TODO"
+  },
+  {
+    name: "pog",
+    info: "2nd song using renoise, more of a study than a full song",
     link: "TODO"
   },
   {
@@ -312,6 +327,16 @@ const song_list = [
   {
     name: "Vectorspace Rebel",
     info: "my entry for round 2 of s3xmoditmania V. tied for 3rd place",
+    link: "TODO"
+  },
+  {
+    name: "Vengeance Stage 1 Boss bgm",
+    info: "in-game boss bgm for a gamedev club game in 2017",
+    link: "TODO"
+  },
+  {
+    name: "Vengeance Stage 1 Lava bgm",
+    info: "in-game bgm for a gamedev club game in 2017",
     link: "TODO"
   },
   {
