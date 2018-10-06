@@ -29,7 +29,7 @@ function make_song_table(reverse) {
     let formatted_info = song.info.replace(/\n/g, '<br>')
     let link_name = "download";
     if (song.link === "TODO") {
-      link_name = "not available yet";
+      link_name = "no download yet";
     }
     table.innerHTML += `
     <tr>
