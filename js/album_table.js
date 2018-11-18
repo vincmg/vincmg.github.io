@@ -182,7 +182,7 @@ function load_bandcamp_embed(element, album_embed) {
 
 (function make_album_table(reverse) {
   let table_list = reverse ? releases_list.reverse() : releases_list;
-  let table = document.getElementById("releases");
+  let table = document.getElementById("release-table");
   table.innerHTML += `
   <tr> 
     <th>date</th>

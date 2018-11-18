@@ -16,7 +16,7 @@ let song_list;
 // have to copy paste this from album_table.js because ES6 module imports are not supported???
 function make_song_table(reverse) {
   let table_list = reverse ? song_list.reverse() : song_list;
-  let table = document.getElementById("misc-songs");
+  let table = document.getElementById("misc-song-table");
   table.innerHTML += `
   <tr> 
     <th>name</th>
