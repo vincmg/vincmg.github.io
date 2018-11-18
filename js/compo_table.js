@@ -99,7 +99,7 @@ function load_bandcamp_embed(element, compo_embed) {
 
 (function make_compo_table(reverse) {
   let table_list = reverse ? compo_list.reverse() : compo_list;
-  let table = document.getElementById("compilation-table");
+  let table = document.getElementById("compilations");
   table.innerHTML += `
   <tr> 
     <th>date</th>

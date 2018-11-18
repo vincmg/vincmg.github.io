@@ -10,8 +10,7 @@ function toggle_list(id) {
 // set table display to none here instead of CSS because ???
 //document.getElementById("releases").style.display = 'none';
 //document.getElementById("compilations").style.display = 'none';
-document.getElementById("misc-songs").style.display = 'none';
 
-document.getElementById("releases-toggle").onclick = () => { toggle_list("release-table") };
-document.getElementById("compos-toggle").onclick = () => { toggle_list("compilation-table") };
+document.getElementById("releases-toggle").onclick = () => { toggle_list("releases") };
+document.getElementById("compos-toggle").onclick = () => { toggle_list("compilations") };
 document.getElementById("misc-toggle").onclick = () => { toggle_list("misc-songs") };
