@@ -24,8 +24,7 @@ function make_song_table(reverse) {
     <th>link</th>
   </tr>`;
 
-  for (let i = 0; i < table_list.length; i++) {
-    let song = table_list[i];
+  for (let song of table_list) {
     let formatted_info = song.info.replace(/\n/g, '<br>')
     let link_name = "download";
     if (song.link === "TODO") {

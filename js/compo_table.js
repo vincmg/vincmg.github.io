@@ -108,8 +108,7 @@ function load_bandcamp_embed(element, compo_embed) {
     <th>art <br> (click to play)</th>
   </tr>`;
 
-  for (let i = 0; i < table_list.length; i++) {
-    let compo = table_list[i];
+  for (let [index, compo] of table_list.entries()) {
     let formatted_info = compo.info.replace(/\n/g, '<br>')
     table.innerHTML += `
     <tr>
@@ -117,15 +116,15 @@ function load_bandcamp_embed(element, compo_embed) {
       <td>${compo.name}</td>
       <td>${formatted_info}</td>
       <td>
-        <img class="album-art" id="compo_${i}" src="${compo.art}" alt="${compo.name}">
+        <img class="album-art" id="compo_${index}" src="${compo.art}" alt="${compo.name}">
       </td>
     </tr>`;
   }
 
-  for (let i = 0; i < table_list.length; i++) {
-    let img = document.getElementById("compo_" + i);
+  for (let [index, compo] of table_list.entries()) {
+    let img = document.getElementById("compo_" + index);
     img.addEventListener("click", () => {
-      load_bandcamp_embed(img, table_list[i].embed);
+      load_bandcamp_embed(img, compo.embed);
     });
   }
 })(true);
