@@ -90,6 +90,13 @@ const compo_list = [
     art: "img/chipwin_vol6_200px.jpg",
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1677762460/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=1199164583/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/chiptunes-win-volume-6">Chiptunes = WIN: Volume 6 by Vince Kaichan</a></iframe>`
   },
+  {
+    date: "2018 Dec 7",
+    name: "ChipWINter Madness",
+    info: "Vince Kaichan - Carriage Ride",
+    art: "img/chipwinter_madness_200px.png",
+    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=3815333075/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=3943713221/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/chipwinter-wilderness">ChipWINter Wilderness by Vince Kaichan</a></iframe>`
+  },
 ];
 
 function load_bandcamp_embed(element, compo_embed) {
