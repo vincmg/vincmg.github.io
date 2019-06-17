@@ -7,6 +7,7 @@ let song_list;
     if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
       song_list = JSON.parse(this.responseText);
       make_song_table(false); // alphabetical order
+      get_misc_count();
     }
   }
   song_table_req.open('GET', 'js/song_list.json', true);
@@ -41,8 +42,8 @@ function make_song_table(reverse) {
   }
 }
 
-(function get_misc_count() {
+function get_misc_count() {
     let misc_count = song_list.length;
     let count = document.getElementById("misc-count");
     count.innerHTML = `(${misc_count})`;
-})();
+}
