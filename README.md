@@ -1,2 +1,2 @@
-# Vince-Kaichan-Website-2
-Redoing the website for my music from scratch
+# vincmg.github.io / vincekaichan.com
+website for my music stuff and maybe my resume in the near future
