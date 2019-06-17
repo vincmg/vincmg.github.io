@@ -135,3 +135,9 @@ function load_bandcamp_embed(element, compo_embed) {
     });
   }
 })(true);
+
+(function get_compo_count() {
+    let compo_count = compo_list.length;
+    let count = document.getElementById("compo-count");
+    count.innerHTML = `(${compo_count})`;
+})();

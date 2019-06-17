@@ -34,3 +34,8 @@ const commission_list = [
   }
 })();
 
+(function get_commission_count() {
+    let commission_count = commission_list.length;
+    let count = document.getElementById("commission-count");
+    count.innerHTML = `(${commission_count})`;
+})();

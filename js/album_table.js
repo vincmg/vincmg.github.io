@@ -211,3 +211,9 @@ function load_bandcamp_embed(element, album_embed) {
     });
   }
 })(true);
+
+(function get_album_count() {
+    let album_count = releases_list.length;
+    let count = document.getElementById("album-count");
+    count.innerHTML = `(${album_count})`;
+})();

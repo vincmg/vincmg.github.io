@@ -40,3 +40,9 @@ function make_song_table(reverse) {
     </tr>`;
   }
 }
+
+(function get_misc_count() {
+    let misc_count = song_list.length;
+    let count = document.getElementById("misc-count");
+    count.innerHTML = `(${misc_count})`;
+})();
