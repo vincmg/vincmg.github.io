@@ -29,7 +29,7 @@ function make_song_table(reverse) {
     let link_name = "download";
     if (song.link === "TODO") {
       link_name = "no download yet";
-    } else if (song.link.search(/soundcloud.com/g)) {
+    } else if (song.link.search(/soundcloud.com/g) != -1) {
       link_name = "soundcloud";
     }
     table.innerHTML += `
