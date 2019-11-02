@@ -3,6 +3,11 @@ const commission_list = [
         "name": "Breaking News! Intro",
         "info": "written for a podcast series by <a href=\"https://octothorpic.com/\">octothorpic</a>",
         "link": "https://octothorpic-music.bandcamp.com/album/breaking-news"
+    },
+    {
+      "name": "Gem Blenders Soundtrack",
+      "info": "written for the <a href=\"https://www.kickstarter.com/projects/stevesekula/gem-blenders-the-card-game\">Gem Blenders Kickstarter Campaign</a>",
+      "link": "https://vincekaichan.bandcamp.com/album/gem-blenders-soundtrack"
     }
 ];
 
