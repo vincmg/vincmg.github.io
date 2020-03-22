@@ -132,7 +132,7 @@
         "name": "Golden Lonely"
     },
     {
-        "link": "mp3/vince_kaichan_-_vince_kaichan_gotanda_lights.mp3",
+        "link": "mp3/vince_kaichan_-_gotanda_lights.mp3",
         "info": "a song about drinking alone in a tiny backalley bar in tokyo",
         "name": "Gotanda Lights"
     },
@@ -147,17 +147,17 @@
         "name": "Horizon"
     },
     {
-        "link": "mp3/vince_kaichan_-_instrumental_ost_in_game.mp3",
+        "link": "mp3/vince_kaichan_-_instruMENTAL_in_game.mp3",
         "info": "in-game bgm loop for Global Game Jam 2017",
         "name": "instruMENTAL main bgm"
     },
     {
-        "link": "mp3/vince_kaichan_-_interplanetary_pigeon_global_game_jam_2019.mp3",
+        "link": "mp3/vince_kaichan_-_interplanetary_pigeon.mp3",
         "info": "main bgm loop for Global Game Jam 2018",
         "name": "Interplanetary Pigeon main bgm"
     },
     {
-        "link": "mp3/vince_kaichan_-_jasper_overworld_music.mp3",
+        "link": "mp3/vince_kaichan_-_jasper_overworld_theme.mp3",
         "info": "bgm loop for some friends' gamedev club project",
         "name": "Jasper Overworld Theme"
     },
@@ -215,7 +215,7 @@
         "name": "oldskoolchip"
     },
     {
-        "link": "mp3/vince_kaichan_-_one_last_dance_spring_track_vi.mp3",
+        "link": "mp3/vince_kaichan_-_one_last_dance.mp3",
         "info": "entry for the Spring Tracks VI competition on Battle of the Bits",
         "name": "One Last Dance"
     },
@@ -244,7 +244,7 @@
         "name": "reflection"
     },
     {
-        "link": "mp3/vince_kaichan_-_raydancer_botb_winter_chip_xii.mp3",
+        "link": "mp3/vince_kaichan_-_raydancer.mp3",
         "info": "a song for an abandoned music game idea i had. this is for a level where you play as a fast and sleek stingray",
         "name": "Raydancer"
     },
@@ -284,7 +284,7 @@
         "name": "Suntory"
     },
     {
-        "link": "mp3/vince_kaichan_-_swashbuckler_saga_wildchip_win.mp3",
+        "link": "mp3/vince_kaichan_-_swashbuckler_saga.mp3",
         "info": "my entry for the Wildchip != WIN competition at Battle of the Bits. came in 2nd place",
         "name": "Swashbuckler Saga"
     },
@@ -302,11 +302,6 @@
         "link": "mp3/vince_kaichan_-_vgdc_lounge.mp3",
         "info": "a re-arrangement of UCI VGDC Theme Song in a latin bossa nova lounge setting",
         "name": "The VGDC Lounge"
-    },
-    {
-        "link": "mp3/vince_kaichan_-_the_vgdc_rap_instrumental.mp3",
-        "info": "a re-arrangement of UCI VGDC Theme Song for an pop/trap setting",
-        "name": "The VGDC Rap"
     },
     {
         "link": "mp3/vince_kaichan_-_the_wind_and_the_rain.mp3",
@@ -364,7 +359,7 @@
         "name": "Yosemite Valley"
     },
     {
-        "link": "mp3/vince_kaichan_-_the_zubmarine_zone.mp3",
+        "link": "mp3/vince_kaichan_-_zubmarine_zone.mp3",
         "info": "inspired by golgi's monkeyball music",
         "name": "the Zubmarine Zone"
     }
