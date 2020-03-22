@@ -1,62 +1,62 @@
 [
     {
-        "link": "mp3/vince_kaichan_-_a_good_time.mp3",
         "info": "started this in Ableton at a friend's house, later transcribed it and finished it in renoise",
+        "link": "https://soundcloud.com/vincmg/a-good-time",
         "name": "a good time!"
     },
     {
-        "link": "mp3/vince_kaichan_-_adirondack.mp3",
         "info": "song from Midsummer Days that i ended up not including",
+        "link": "mp3/vince_kaichan_-_adirondack.mp3",
         "name": "adirondack"
     },
     {
-        "link": "mp3/vince_kaichan_-_afterhours.wav",
         "info": "first successfully completed song on the C64. made in SIDWizard",
+        "link": "mp3/vince_kaichan_-_afterhours.wav",
         "name": "Afterhours"
     },
     {
-        "link": "mp3/vince_kaichan_-_alleycat.mp3",
         "info": "experimenting with some production stuff in renoise",
+        "link": "https://soundcloud.com/vincmg/alleycat",
         "name": "alleycat"
     },
     {
-        "link": "mp3/vince_kaichan_-_angelwings.mp3",
         "info": "harmonic experiment with diatonic cluster chords",
+        "link": "mp3/vince_kaichan_-_angelwings.mp3",
         "name": "angelwings"
     },
     {
-        "link": "mp3/vince_kaichan_-_canyon_junction.mp3",
         "info": "it sounded vast, so i put canyon in the title",
+        "link": "https://soundcloud.com/vincmg/canyon-junction",
         "name": "canyon junction"
     },
     {
-        "link": "mp3/vince_kaichan_-_celestial_bodies.mp3",
         "info": "a rock-style song. made in sunvox",
+        "link": "mp3/vince_kaichan_-_celestial_bodies.mp3",
         "name": "Celestial Bodies"
     },
     {
-        "link": "mp3/vince_kaichan_-_coast_starlight.mp3",
         "info": "song about the time i took the amtrak sleeper car from los angeles to seattle with my family",
+        "link": "https://soundcloud.com/vincmg/coast-starlight",
         "name": "Coast Starlight"
     },
     {
-        "link": "mp3/vince_kaichan_-_cool_juice.mp3",
         "info": "i was inspired from reading the Jazz Theory Book by Mark Levine",
+        "link": "https://soundcloud.com/vincmg/cool-juice",
         "name": "Cool Juice"
     },
     {
-        "link": "mp3/vince_kaichan_-_cortex.mp3",
         "info": "i listened to Violin Phase by Steve Reich for the first time and loved it so much i had to sample it and make a short jam",
+        "link": "mp3/vince_kaichan_-_cortex.mp3",
         "name": "Cortex"
     },
     {
-        "link": "mp3/vince_kaichan_-_crammin_jammin_3hb.mp3",
         "info": "written during the 3-hour 'demoscene music competition at MAGWest 2017'. won 1st place",
+        "link": "https://soundcloud.com/vincmg/crammin-jammin-3hb",
         "name": "crammin jammin [3HB]"
     },
     {
-        "link": "mp3/vince_kaichan_-_cruiser_ohb.mp3",
         "info": "my entry for a 1-hour battle on the #modulez irc channel. won 1st place",
+        "link": "https://soundcloud.com/vincmg/cruiser-ohb",
         "name": "cruiser [OHB]"
     },
     {
@@ -64,13 +64,13 @@
         "name": "crystal ice caves"
     },
     {
-        "link": "mp3/vince_kaichan_-_cyberwinter.mp3",
         "info": "messing around with the classic Amiga ST-xx sample packs",
+        "link": "mp3/vince_kaichan_-_cyberwinter.mp3",
         "name": "cyberwinter"
     },
     {
-        "link": "mp3/vince_kaichan_-_dakstre.mp3",
         "info": "written on a high school europe trip. was supposed to segue into PQM. made in LSDJ",
+        "link": "mp3/vince_kaichan_-_dakstre.mp3",
         "name": "Dakstre"
     },
     {
@@ -78,18 +78,18 @@
         "name": "Darkedge Overworld Theme"
     },
     {
-        "link": "mp3/vince_kaichan_-_days_of_future_past_present.mp3",
         "info": "made in 1h30m for an informal competition. made with LSDJ",
+        "link": "https://soundcloud.com/vincmg/days-of-future-past-present",
         "name": "Days of Future Past Present"
     },
     {
-        "link": "mp3/vince_kaichan_-_drifting_to_dreamland.mp3",
         "info": "a song made in a very inspired day. made in sunvox",
+        "link": "mp3/vince_kaichan_-_drifting_to_dreamland.mp3",
         "name": "Drifting to Dreamland"
     },
     {
-        "link": "mp3/vince_kaichan_-_edgelord_in_game_music_game_jam.mp3",
         "info": "in-game bgm loop for a gamedev club game jam in 2016",
+        "link": "https://soundcloud.com/vincmg/edgelord-in-game-music-game-jam",
         "name": "EDGELORD main bgm"
     },
     {
@@ -97,78 +97,78 @@
         "name": "EDGELORD menu bgm"
     },
     {
-        "link": "mp3/vince_kaichan_-_electric_mountain.mp3",
         "info": "my entry for round 1 of s3xmoditmania V. came in 2nd place",
+        "link": "https://soundcloud.com/vincmg/electric-mountain",
         "name": "electric mountain"
     },
     {
-        "link": "mp3/vince_kaichan_-_electroblight.mp3",
         "info": "my first song with openmpt ever back in 2012. it's not very good sorry",
+        "link": "mp3/vince_kaichan_-_electroblight.mp3",
         "name": "electroblight"
     },
     {
-        "link": "mp3/vince_kaichan_-_faith.mp3",
         "info": "this is fake gagaku",
+        "link": "https://soundcloud.com/vincmg/faith",
         "name": "faith"
     },
     {
-        "link": "mp3/vince_kaichan_-_fingerpainting.mp3",
         "info": "first song with renoise ever, using mostly builtin sounds",
+        "link": "https://soundcloud.com/vincmg/fingerpainting",
         "name": "fingerpainting"
     },
     {
-        "link": "mp3/vince_kaichan_-_geoconstruct_1998.mp3",
         "info": "my entry for round 4 of s3xmoditmania V. came in 1st place",
+        "link": "https://soundcloud.com/vincmg/geoconstruct-1998",
         "name": "geoconstruct 1998"
     },
     {
-        "link": "mp3/vince_kaichan_-_going_home.mp3",
         "info": "a song about homesickness written while i was studying abroad in japan inspired by undertale",
+        "link": "https://soundcloud.com/vincmg/going-home",
         "name": "Going Home"
     },
     {
-        "link": "mp3/vince_kaichan_-_golden_lonely.mp3",
         "info": "an old song about bittersweet sunsets",
+        "link": "mp3/vince_kaichan_-_golden_lonely.mp3",
         "name": "Golden Lonely"
     },
     {
-        "link": "mp3/vince_kaichan_-_vince_kaichan_gotanda_lights.mp3",
         "info": "a song about drinking alone in a tiny backalley bar in tokyo",
+        "link": "https://soundcloud.com/vincmg/vince-kaichan-gotanda-lights",
         "name": "Gotanda Lights"
     },
     {
-        "link": "mp3/vince_kaichan_-_hazy_evening.mp3",
         "info": "my second song with openmpt ever. it's not very good either",
+        "link": "mp3/vince_kaichan_-_hazy_evening.mp3",
         "name": "Hazy Evening"
     },
     {
-        "link": "mp3/vince_kaichan_-_horizon.mp3",
         "info": "a song with an uninspired title",
+        "link": "mp3/vince_kaichan_-_horizon.mp3",
         "name": "Horizon"
     },
     {
-        "link": "mp3/vince_kaichan_-_instrumental_ost_in_game.mp3",
         "info": "in-game bgm loop for Global Game Jam 2017",
+        "link": "https://soundcloud.com/vincmg/instrumental-ost-in-game",
         "name": "instruMENTAL main bgm"
     },
     {
-        "link": "mp3/vince_kaichan_-_interplanetary_pigeon_global_game_jam_2019.mp3",
         "info": "main bgm loop for Global Game Jam 2018",
+        "link": "https://soundcloud.com/vincmg/interplanetary-pigeon-global-game-jam-2019",
         "name": "Interplanetary Pigeon main bgm"
     },
     {
-        "link": "mp3/vince_kaichan_-_jasper_overworld_music.mp3",
         "info": "bgm loop for some friends' gamedev club project",
+        "link": "https://soundcloud.com/vincmg/jasper-overworld-music",
         "name": "Jasper Overworld Theme"
     },
     {
-        "link": "mp3/vince_kaichan_-_jellies_in_the_sea.mp3",
         "info": "a song for an abandoned music game idea i had about being a jellyfish drifting through the sea",
+        "link": "https://soundcloud.com/vincmg/jellies-in-the-sea",
         "name": "Jellyfish Floaters"
     },
     {
-        "link": "mp3/vince_kaichan_-_julaaeeeaaeeaaee_ohb.mp3",
         "info": "a 1-hour battle entry where we had to use samples from the infamous hhgregg commercial",
+        "link": "https://soundcloud.com/vincmg/julaaeeeaaeeaaee-ohb",
         "name": "julaaeeaaee [OHB]"
     },
     {
@@ -176,13 +176,13 @@
         "name": "Junkstep"
     },
     {
-        "link": "mp3/vince_kaichan_-_kinetic_synthetic.mp3",
         "info": "written as part of an unfinished 5-song live set with PQM and Dakstre. made in LSDJ",
+        "link": "mp3/vince_kaichan_-_kinetic_synthetic.mp3",
         "name": "Kinetic Synthetic"
     },
     {
-        "link": "mp3/vince_kaichan_-_lumine.mp3",
         "info": "written right after i came back to the US from japan as a goodbye to that chapter of my life",
+        "link": "https://soundcloud.com/vincmg/lumine",
         "name": "Lumine"
     },
     {
@@ -190,48 +190,48 @@
         "name": "Mambo Jambo"
     },
     {
-        "link": "mp3/vince_kaichan_-_metropolis.mp3",
         "info": "inspired by the dense undulating waves of low-rise and high-rise buildings in tokyo",
+        "link": "https://soundcloud.com/vincmg/metropolis",
         "name": "Metropolis"
     },
     {
-        "link": "mp3/vince_kaichan_-_milky_way.mp3",
         "info": "performed live at freq.fest.v.5.0 in los angeles and also heard in the joystiq farewell podcast",
+        "link": "https://soundcloud.com/vincmg/milky-way",
         "name": "Milky Way"
     },
     {
-        "link": "mp3/vince_kaichan_-_moss_line.mp3",
         "info": "a song about trees",
+        "link": "https://soundcloud.com/vincmg/moss-line",
         "name": "moss line"
     },
     {
-        "link": "mp3/vince_kaichan_-_nomu.mp3",
         "info": "inspired by the winter/early summer morning fog in southern california",
+        "link": "https://soundcloud.com/vincmg/nomu",
         "name": "Nomu"
     },
     {
-        "link": "mp3/vince_kaichan_-_oldskoolchip.mp3",
         "info": "a little sketch imitating the classic amiga/demoscene era chiptune style",
+        "link": "mp3/vince_kaichan_-_oldskoolchip.mp3",
         "name": "oldskoolchip"
     },
     {
-        "link": "mp3/vince_kaichan_-_one_last_dance_spring_track_vi.mp3",
         "info": "entry for the Spring Tracks VI competition on Battle of the Bits",
+        "link": "https://soundcloud.com/vincmg/one-last-dance-spring-track-vi",
         "name": "One Last Dance"
     },
     {
-        "link": "mp3/vince_kaichan_-_orbital.mp3",
         "info": "a failed attempt at a breakbeat track",
+        "link": "mp3/vince_kaichan_-_orbital.mp3",
         "name": "Orbital"
     },
     {
-        "link": "mp3/vince_kaichan_-_park_bench_with_little_mushroom.mp3",
         "info": "a song about a park bench with a little mushroom on a warm summer day",
+        "link": "https://soundcloud.com/vincmg/park-bench-with-little-mushroom",
         "name": "park bench with little mushroom"
     },
     {
-        "link": "mp3/vince_kaichan_-_pog.mp3",
         "info": "2nd song using renoise, more of a study than a full song",
+        "link": "https://soundcloud.com/vincmg/pog",
         "name": "pog"
     },
     {
@@ -239,133 +239,133 @@
         "name": "PQM"
     },
     {
-        "link": "mp3/vince_kaichan_-_reflection.mp3",
         "info": "production/mixing practice",
+        "link": "https://soundcloud.com/vincmg/reflection",
         "name": "reflection"
     },
     {
-        "link": "mp3/vince_kaichan_-_raydancer_botb_winter_chip_xii.mp3",
         "info": "a song for an abandoned music game idea i had. this is for a level where you play as a fast and sleek stingray",
+        "link": "https://soundcloud.com/vincmg/raydancer-botb-winter-chip-xii",
         "name": "Raydancer"
     },
     {
-        "link": "mp3/vince_kaichan_-_romanian_winter.mp3",
         "info": "an experiment in non-A440 tunings (the song is tuned to A460). partly inspired by a romanian drum n bass track that i liked a lot",
+        "link": "https://soundcloud.com/vincmg/romanian-winter",
         "name": "Romanian Winter"
     },
     {
-        "link": "mp3/vince_kaichan_-_shakeshack_galaxy.mp3",
         "info": "a song about burgers in space",
+        "link": "https://soundcloud.com/vincmg/shakeshack-galaxy",
         "name": "Shakeshack Galaxy"
     },
     {
-        "link": "mp3/vince_kaichan_-_small_world_from_up_there.mp3",
         "info": "discovering how good the roland gigapack sample cd is",
+        "link": "https://soundcloud.com/vincmg/small-world-from-up-there",
         "name": "small world from up there"
     },
     {
-        "link": "mp3/vince_kaichan_-_solar_system_smash_main_game.mp3",
         "info": "in-game bgm loop for a gamedev club game jam in 2015",
+        "link": "https://soundcloud.com/vincmg/solar-system-smash-main-game",
         "name": "Solar System Smash bgm"
     },
     {
-        "link": "mp3/vince_kaichan_-_solitude.mp3",
         "info": "a song about feeling lonely in a foreign country",
+        "link": "https://soundcloud.com/vincmg/solitude",
         "name": "Solitude"
     },
     {
-        "link": "mp3/vince_kaichan_-_songbirds_playground.mp3",
         "info": "i wrote this one afternoon after watching some birds in the local park",
+        "link": "https://soundcloud.com/vincmg/songbirds-playground",
         "name": "songbirds' playground"
     },
     {
-        "link": "mp3/vince_kaichan_-_suntory.mp3",
         "info": "made for a C64 demoscene competition but never submitted. made in SIDWizard",
+        "link": "mp3/vince_kaichan_-_suntory.mp3",
         "name": "Suntory"
     },
     {
-        "link": "mp3/vince_kaichan_-_swashbuckler_saga_wildchip_win.mp3",
         "info": "my entry for the Wildchip != WIN competition at Battle of the Bits. came in 2nd place",
+        "link": "https://soundcloud.com/vincmg/swashbuckler-saga-wildchip-win",
         "name": "Swashbuckler Saga"
     },
     {
-        "link": "mp3/vince_kaichan_-_the_func.mp3",
         "info": "written to celebrate going to therapy and successfully climbing out of a mild depression in fall 2016",
+        "link": "https://soundcloud.com/vincmg/the-func",
         "name": "The Func"
     },
     {
-        "link": "mp3/vince_kaichan_-_the_jungle.mp3",
         "info": "musing about living in a crowded, sweaty, shitty city that you can't help but love because of its humanity",
+        "link": "https://soundcloud.com/vincmg/the-jungle",
         "name": "The Jungle"
     },
     {
-        "link": "mp3/vince_kaichan_-_vgdc_lounge.mp3",
         "info": "a re-arrangement of UCI VGDC Theme Song in a latin bossa nova lounge setting",
+        "link": "https://soundcloud.com/vincmg/vgdc-lounge",
         "name": "The VGDC Lounge"
     },
     {
-        "link": "mp3/vince_kaichan_-_the_vgdc_rap_instrumental.mp3",
         "info": "a re-arrangement of UCI VGDC Theme Song for an pop/trap setting",
+        "link": "https://soundcloud.com/vincmg/the-vgdc-rap-instrumental",
         "name": "The VGDC Rap"
     },
     {
-        "link": "mp3/vince_kaichan_-_the_wind_and_the_rain.mp3",
         "info": "written for Weeklybeats 2014. i didn't last very long before i dropped out",
+        "link": "https://soundcloud.com/vincmg/the-wind-and-the-rain",
         "name": "The Wind and The Rain"
     },
     {
-        "link": "mp3/vince_kaichan_-_treds_vbk.mp3",
         "info": "a sampling experiment inspired by OK Ikumi. made in sunvox",
+        "link": "mp3/vince_kaichan_-_treds_vbk.mp3",
         "name": "treds vbk"
     },
     {
-        "link": "mp3/vince_kaichan_-_uci_video_game_development_club_theme_song_extended_mix.mp3",
         "info": "written for gamedev club to use in promotional materials and branding",
+        "link": "https://soundcloud.com/vincmg/uci-video-game-development-club-theme-song-extended-mix",
         "name": "UCI VGDC Theme Song"
     },
     {
-        "link": "mp3/vince_kaichan_-_ultraviolet_rearrange.mp3",
         "info": "a re-arrangement of a very old gameboy song from 2011",
+        "link": "mp3/vince_kaichan_-_ultraviolet_rearrange.mp3",
         "name": "Ultraviolet"
     },
     {
-        "link": "mp3/vince_kaichan_-_cant_think_of_a_title_for_this.mp3",
         "info": "written specifically for performing at Square Sounds Tokyo 2015 pre-party",
+        "link": "https://soundcloud.com/vincmg/cant-think-of-a-title-for-this",
         "name": "untitled gameboy song"
     },
     {
-        "link": "mp3/vince_kaichan_-_vectorspace_rebel.mp3",
         "info": "my entry for round 2 of s3xmoditmania V. tied for 3rd place",
+        "link": "https://soundcloud.com/vincmg/vectorspace-rebel",
         "name": "Vectorspace Rebel"
     },
     {
-        "link": "mp3/vince_kaichan_-_vengeance_ost_stage_1_boss_music_lava_cave.mp3",
         "info": "in-game boss bgm for a gamedev club game in 2017",
+        "link": "https://soundcloud.com/vincmg/vengeance-ost-stage-1-boss-music-lava-cave",
         "name": "Vengeance Stage 1 Boss bgm"
     },
     {
-        "link": "mp3/vince_kaichan_-_vengeance_ost_stage_1_level_music_lava_cave.mp3",
         "info": "in-game bgm for a gamedev club game in 2017",
+        "link": "https://soundcloud.com/vincmg/vengeance-ost-stage-1-level-music-lava-cave",
         "name": "Vengeance Stage 1 Lava bgm"
     },
     {
-        "link": "mp3/vince_kaichan_-_visions_of_a_near_future.mp3",
         "info": "appears in openmpt as a demo track to show off the capabilities of the .mptm format",
+        "link": "https://soundcloud.com/vincmg/visions-of-a-near-future",
         "name": "Visions of a Near Future"
     },
     {
-        "link": "mp3/vince_kaichan_-_yesterday_rain.mp3",
         "info": "a short mood sketch",
+        "link": "https://soundcloud.com/vincmg/yesterday-rain",
         "name": "Yesterday Rain"
     },
     {
-        "link": "mp3/vince_kaichan_-_yosemite_valley.mp3",
         "info": "thinking about grand nature",
+        "link": "https://soundcloud.com/vincmg/yosemite-valley",
         "name": "Yosemite Valley"
     },
     {
-        "link": "mp3/vince_kaichan_-_the_zubmarine_zone.mp3",
         "info": "inspired by golgi's monkeyball music",
+        "link": "https://soundcloud.com/vincmg/the-zubmarine-zone",
         "name": "the Zubmarine Zone"
     }
 ]
