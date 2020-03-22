@@ -216,7 +216,7 @@
     },
     {
         "info": "a little sketch imitating the classic amiga/demoscene era chiptune style",
-        "link": "https://drive.google.com/uc?export=download&id=1zvHfvdHsLjBvMjd-qb7tmQb4vRBJzT1v",
+        "link": "mp3/vince_kaichan_-_oldskoolchip.mp3",
         "name": "oldskoolchip"
     },
     {
@@ -320,13 +320,8 @@
         "name": "The Wind and The Rain"
     },
     {
-        "info": "failed attempt at writing some elwood 90s fasttracker 2 style trance",
-        "link": "TODO",
-        "name": "trancepiano"
-    },
-    {
         "info": "a sampling experiment inspired by OK Ikumi. made in sunvox",
-        "link": "TODO",
+        "link": "mp3/vince_kaichan_-_treds_vbk.mp3",
         "name": "treds vbk"
     },
     {
