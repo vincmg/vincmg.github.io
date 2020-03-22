@@ -37,7 +37,7 @@ function load_bandcamp_embed(element, commission_embed) {
       <td>${commission.name}</td>
       <td>${formatted_info}</td>
       <td>
-        <img class="album-art" id="commission_${index}" src="${commision.art}" alt="${commision.name}">
+        <img class="album-art" id="commission_${index}" src="${commission.art}" alt="${commission.name}">
       </td
     </tr>`;
   }
