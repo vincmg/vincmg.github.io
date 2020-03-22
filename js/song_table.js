@@ -38,7 +38,7 @@ function make_song_table(reverse) {
       link_html = `<a href="${song.link}" download>soundcloud</a>`;
     }
     else {
-      link_html = `<audio controls src="${song.link}" preload="metadata"></audio>`;
+      link_html = `<audio controls src="${song.link}" preload="none"></audio>`;
     }
 
     table.innerHTML += `
