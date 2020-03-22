@@ -28,9 +28,10 @@ function make_song_table(reverse) {
   for (let song of table_list) {
     let formatted_info = song.info.replace(/\n/g, '<br>')
     let link_name = "download";
-    if (song.link === "TODO") {
+    if (song.link === undefined) {
       link_name = "no download yet";
-    } else if (song.link.search(/soundcloud.com/g) != -1) {
+    }
+    else if (song.link.search(/soundcloud.com/g) != -1) {
       // TODO TODO put soundcloud embed here instead of just a link
       link_name = "soundcloud";
     }
