@@ -28,20 +28,17 @@ function make_song_table(reverse) {
   for (let song of table_list) {
     let formatted_info = song.info.replace(/\n/g, '<br>')
     let link_name = "download";
+    let link_html = `error`;
+
     if (song.link === undefined) {
-      link_name = "no download yet";
+      link_html = "no download yet";
     }
     else if (song.link.search(/soundcloud.com/g) != -1) {
       // TODO TODO put soundcloud embed here instead of just a link
-      link_name = "soundcloud";
+      link_html = `<a href="${song.link}" download>soundcloud</a>`;
     }
     else {
-      // TODO TODO put html5 audio player here
-    }
-
-    let link_html = `<a href="${song.link}" download>${link_name}</a>`;
-    if (link_name === "no download yet") {
-      link_html = "no download yet";
+      link_html = `<audio controls src="${song.link}" preload="metadata"></audio>`;
     }
 
     table.innerHTML += `
