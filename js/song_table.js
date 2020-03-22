@@ -31,13 +31,23 @@ function make_song_table(reverse) {
     if (song.link === "TODO") {
       link_name = "no download yet";
     } else if (song.link.search(/soundcloud.com/g) != -1) {
+      // TODO TODO put soundcloud embed here instead of just a link
       link_name = "soundcloud";
     }
+    else {
+      // TODO TODO put html5 audio player here
+    }
+
+    let link_html = `<a href="${song.link}" download>${link_name}</a>`;
+    if (link_name === "no download yet") {
+      link_html = "no download yet";
+    }
+
     table.innerHTML += `
     <tr>
       <td>${song.name}</td>
       <td>${formatted_info}</td>
-      <td><a href="${song.link}" download>${link_name}</a></td>
+      <td>${link_html}</td>
     </tr>`;
   }
 }

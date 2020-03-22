@@ -30,6 +30,9 @@ const commission_list = [
     } else if (commission.link.search(/soundcloud.com/g) != -1) {
       link_name = "soundcloud";
     }
+    else {
+      // TODO TODO put bandcamp embed here
+    }
     table.innerHTML += `
     <tr>
       <td>${commission.name}</td>
