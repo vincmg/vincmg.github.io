@@ -3,13 +3,15 @@ const commission_list = [
         "name": "Breaking News! Intro",
         "info": "written for a podcast series by <a href=\"https://octothorpic.com/\">octothorpic</a>",
         "art": "img/octothorpe_200px.jpg",
-        "embed": `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=2293678488/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://octothorpic-music.bandcamp.com/album/breaking-news">Breaking News! by Octothorpic</a></iframe>`
+        "embed": `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=2293678488/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://octothorpic-music.bandcamp.com/album/breaking-news">Breaking News! by Octothorpic</a></iframe>`,
+        "date": 2019
     },
     {
       "name": "Gem Blenders Soundtrack",
       "info": "written for the <a href=\"https://www.kickstarter.com/projects/stevesekula/gem-blenders-the-card-game\">Gem Blenders Kickstarter Campaign</a>",
       "art": "img/gem_blenders_200px.jpg",
-      "embed": `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1560225786/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://vincekaichan.bandcamp.com/album/gem-blenders-soundtrack">Gem Blenders Soundtrack by Vince Kaichan</a></iframe>`
+      "embed": `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1560225786/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://vincekaichan.bandcamp.com/album/gem-blenders-soundtrack">Gem Blenders Soundtrack by Vince Kaichan</a></iframe>`,
+      "date": 2019
     }
 ];
 
@@ -25,6 +27,7 @@ function load_bandcamp_embed(element, commission_embed) {
   let table = document.getElementById("commissions");
   table.innerHTML += `
   <tr> 
+    <th>date</th>
     <th>name</th>
     <th>info</th>
     <th>art <br> (click to play)</th>
@@ -34,6 +37,7 @@ function load_bandcamp_embed(element, commission_embed) {
     let formatted_info = commission.info.replace(/\n/g, '<br>')
     table.innerHTML += `
     <tr>
+      <td>${commission.date}</td>
       <td>${commission.name}</td>
       <td>${formatted_info}</td>
       <td>
