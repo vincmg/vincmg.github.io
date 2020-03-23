@@ -62,7 +62,6 @@ hr {
 
 .album-art {
     cursor: pointer;
-    vertical-align: center;
 }
 
 a[id*=toggle] {
