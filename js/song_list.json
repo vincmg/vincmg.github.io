@@ -54,7 +54,7 @@
         "name": "Cool Juice"
     },
     {
-        "date": "2017?",
+        "date": 2017,
         "link": "mp3/vince_kaichan_-_cortex.mp3",
         "info": "i listened to Violin Phase by Steve Reich for the first time and loved it so much i had to sample it and make a short jam",
         "name": "Cortex"
@@ -77,7 +77,7 @@
         "name": "crystal ice caves"
     },
     {
-        "date": "2013?",
+        "date": 2013,
         "link": "mp3/vince_kaichan_-_cyberwinter.mp3",
         "info": "messing around with the classic Amiga ST-xx sample packs",
         "name": "cyberwinter"
@@ -172,7 +172,7 @@
         "name": "Hazy Evening"
     },
     {
-        "date": "2016?",
+        "date": 2016,
         "link": "mp3/vince_kaichan_-_horizon.mp3",
         "info": "a song with an uninspired title",
         "name": "Horizon"
@@ -208,7 +208,7 @@
         "name": "julaaeeaaee [OHB]"
     },
     {
-        "date": "2013?",
+        "date": 2013,
         "link": "mp3/vince_kaichan_-_kinetic_synthetic.mp3",
         "info": "written as part of an unfinished 5-song live set with PQM and Dakstre. made in LSDJ",
         "name": "Kinetic Synthetic"
@@ -249,7 +249,7 @@
         "name": "Nomu"
     },
     {
-        "date": "unknown",
+        "date": 2014,
         "link": "mp3/vince_kaichan_-_oldskoolchip.mp3",
         "info": "a little sketch imitating the classic amiga/demoscene era chiptune style",
         "name": "oldskoolchip"
@@ -261,7 +261,7 @@
         "name": "One Last Dance"
     },
     {
-        "date": "2015?",
+        "date": 2015,
         "link": "mp3/vince_kaichan_-_orbital.mp3",
         "info": "a failed attempt at a breakbeat track",
         "name": "Orbital"
@@ -368,7 +368,7 @@
         "name": "The Wind and The Rain"
     },
     {
-        "date": "2013?",
+        "date": 2013,
         "link": "mp3/vince_kaichan_-_treds_vbk.mp3",
         "info": "a sampling experiment inspired by OK Ikumi. made in sunvox",
         "name": "treds vbk"
