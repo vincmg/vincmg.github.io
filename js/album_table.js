@@ -183,7 +183,7 @@ function load_bandcamp_embed(element, album_embed) {
 (function make_album_table(reverse) {
   let table_list = reverse ? releases_list.reverse() : releases_list;
   let table = document.getElementById("releases");
-  table.innerHTML += `
+  let table_html = `
   <tr> 
     <th>date</th>
     <th>name</th>
@@ -193,7 +193,7 @@ function load_bandcamp_embed(element, album_embed) {
 
   for (let [index, album] of table_list.entries()) {
     let formatted_info = album.info.replace(/\n/g, '<br>')
-    table.innerHTML += `
+    table_html += `
     <tr>
       <td>${album.date}</td>
       <td>${album.name}</td>
@@ -203,6 +203,7 @@ function load_bandcamp_embed(element, album_embed) {
       </td>
     </tr>`;
   }
+  table.innerHTML = table_html;
 
   for (let [index, album] of table_list.entries()) {
     let img = document.getElementById("album_" + index);

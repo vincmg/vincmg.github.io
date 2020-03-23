@@ -25,7 +25,7 @@ function load_bandcamp_embed(element, commission_embed) {
 (function make_commission_table(reverse) {
   let table_list = reverse ? commission_list.reverse() : commission_list;
   let table = document.getElementById("commissions");
-  table.innerHTML += `
+  let table_html = `
   <tr> 
     <th>date</th>
     <th>name</th>
@@ -35,7 +35,7 @@ function load_bandcamp_embed(element, commission_embed) {
 
   for (let [index, commission] of table_list.entries()) {
     let formatted_info = commission.info.replace(/\n/g, '<br>')
-    table.innerHTML += `
+    table_html += `
     <tr>
       <td>${commission.date}</td>
       <td>${commission.name}</td>
@@ -45,6 +45,8 @@ function load_bandcamp_embed(element, commission_embed) {
       </td
     </tr>`;
   }
+  table.innerHTML = table_html;
+
   for (let [index, commission] of table_list.entries()) {
     let img = document.getElementById("commission_" + index);
     img.addEventListener("click", () => {

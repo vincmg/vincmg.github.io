@@ -107,7 +107,7 @@ function load_bandcamp_embed(element, compo_embed) {
 (function make_compo_table(reverse) {
   let table_list = reverse ? compo_list.reverse() : compo_list;
   let table = document.getElementById("compilations");
-  table.innerHTML += `
+  let table_html = `
   <tr> 
     <th>date</th>
     <th>compilation name</th>
@@ -117,7 +117,7 @@ function load_bandcamp_embed(element, compo_embed) {
 
   for (let [index, compo] of table_list.entries()) {
     let formatted_info = compo.info.replace(/\n/g, '<br>')
-    table.innerHTML += `
+    table_html += `
     <tr>
       <td>${compo.date}</td>
       <td>${compo.name}</td>
@@ -127,6 +127,7 @@ function load_bandcamp_embed(element, compo_embed) {
       </td>
     </tr>`;
   }
+  table.innerHTML = table_html;
 
   for (let [index, compo] of table_list.entries()) {
     let img = document.getElementById("compo_" + index);

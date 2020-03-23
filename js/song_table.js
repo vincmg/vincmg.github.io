@@ -18,7 +18,7 @@ let song_list;
 function make_song_table(reverse) {
   let table_list = reverse ? song_list.reverse() : song_list;
   let table = document.getElementById("misc-songs");
-  table.innerHTML += `
+  let table_html = `
   <tr> 
     <th>year</th>
     <th>name</th>
@@ -42,7 +42,7 @@ function make_song_table(reverse) {
       link_html = `<audio controls src="${song.link}" preload="none"></audio>`;
     }
 
-    table.innerHTML += `
+    table_html += `
     <tr>
       <td>${song.date}</td>
       <td>${song.name}</td>
@@ -50,6 +50,8 @@ function make_song_table(reverse) {
       <td>${link_html}</td>
     </tr>`;
   }
+
+  table.innerHTML = table_html;
 }
 
 function get_misc_count() {
