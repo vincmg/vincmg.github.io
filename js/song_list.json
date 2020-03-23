@@ -93,6 +93,7 @@
         "name": "EDGELORD main bgm"
     },
     {
+        "link": "mp3/vince_kaichan_-_edgelord_menu_music_game_jam.mp3",
         "info": "main menu bgm loop for a gamedev club game jam in 2016",
         "name": "EDGELORD menu bgm"
     },
@@ -314,7 +315,7 @@
         "name": "treds vbk"
     },
     {
-        "link": "mp3/vince_kaichan_-_uci_video_game_development_club_theme_song_extended_mix.mp3",
+        "link": "mp3/vince_kaichan_-_uci_vgdc_theme_extended.mp3",
         "info": "written for gamedev club to use in promotional materials and branding",
         "name": "UCI VGDC Theme Song"
     },
@@ -334,12 +335,12 @@
         "name": "Vectorspace Rebel"
     },
     {
-        "link": "mp3/vince_kaichan_-_vengeance_ost_stage_1_boss_music_lava_cave.mp3",
+        "link": "mp3/vince_kaichan_-_vengeance_ost_lava_cave_boss.mp3",
         "info": "in-game boss bgm for a gamedev club game in 2017",
         "name": "Vengeance Stage 1 Boss bgm"
     },
     {
-        "link": "mp3/vince_kaichan_-_vengeance_ost_stage_1_level_music_lava_cave.mp3",
+        "link": "mp3/vince_kaichan_-_vengeance_ost_lava_cave_bgm.mp3",
         "info": "in-game bgm for a gamedev club game in 2017",
         "name": "Vengeance Stage 1 Lava bgm"
     },
