@@ -44,7 +44,7 @@ function make_song_table(reverse) {
 
     table.innerHTML += `
     <tr>
-      <td>${song.year}</td>
+      <td>${song.date}</td>
       <td>${song.name}</td>
       <td>${formatted_info}</td>
       <td>${link_html}</td>
