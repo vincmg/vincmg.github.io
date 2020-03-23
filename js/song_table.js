@@ -6,7 +6,7 @@ let song_list;
   song_table_req.onreadystatechange = function() {
     if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
       song_list = JSON.parse(this.responseText);
-      make_song_table(false); // alphabetical order
+      make_song_table(); // alphabetical order
       get_misc_count();
     }
   }
@@ -14,9 +14,21 @@ let song_list;
   song_table_req.send();
 })();
 
+function song_date_comp(a, b) {
+  if (a.date === b.date) {
+    return 0;
+  }
+  // TODO TODO will this play nice with "unknown" and questionmark dates
+  if (a.date > b.date) {
+    return -1;
+  }
+  if (a.date < b.date) {
+    return 1;
+  }
+}
 // have to copy paste this from album_table.js because ES6 module imports are not supported???
-function make_song_table(reverse) {
-  let table_list = reverse ? song_list.reverse() : song_list;
+function make_song_table() {
+  let table_list = song_list.sort(song_date_comp);
   let table = document.getElementById("misc-songs");
   let table_html = `
   <tr> 
