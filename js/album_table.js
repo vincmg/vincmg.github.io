@@ -172,6 +172,23 @@ const releases_list = [
     art: "img/double_take_200px.jpg",
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=720785494/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://iiiypad.bandcamp.com/album/double-take">DOUBLE TAKE by 4MEN430</a></iframe>`
   },
+  {
+    date: "2020 may 15",
+    name: "lost in world",
+    info: `made with renoise.
+    
+    tracklist:
+      1. where you go
+      2. eon (ago)
+      3. waiting for
+      4. nightmare
+      5. werk
+      6. alphonse
+      7. 9pm (bonus expression)
+    `,
+    art: "img/lost_in_world_200px.jpg",
+    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=2716039480/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://vincekaichan.bandcamp.com/album/lost-in-world">lost in world by Vince Kaichan</a></iframe>`
+  },
 ];
 
 // have to copy paste this from album_table.js because ES6 module imports are not supported???
