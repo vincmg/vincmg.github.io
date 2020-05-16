@@ -184,7 +184,7 @@ const releases_list = [
       4. nightmare
       5. werk
       6. alphonse
-      7. 9pm (bonus expression)
+      7. 9pm (bonus track)
     `,
     art: "img/lost_in_world_200px.jpg",
     embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=2716039480/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://vincekaichan.bandcamp.com/album/lost-in-world">lost in world by Vince Kaichan</a></iframe>`
