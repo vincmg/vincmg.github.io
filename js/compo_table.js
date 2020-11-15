@@ -11,7 +11,7 @@ const compo_list = [
     name: "chipWINter",
     info: "Vince Kaichan - Midnight Snowflake. made in SunVox",
     art: "img/chipwinter_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px; display: block; margin: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=1014498065/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=41518200/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/chipwinter">chipWINter by Vince Kaichan</a></iframe>`
+    link: "mp3/vince_kaichan_-_midnight_snowflake.mp3"
   },
   {
     date: "2013 Jan 4",
