@@ -25,14 +25,14 @@ const compo_list = [
     name: "Chiptunes = WIN: Volume 2",
     info: "Vince Kaichan - Iskloo Dandruff/Morningstar Express. made in LSDJ",
     art: "img/chipwin_vol2_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1124851379/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=3645337766/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/chiptunes-win-volume-2-2">Chiptunes = WIN: Volume 2 by Vince Kaichan</a></iframe>`
+    link: "mp3/vince_kaichan_-_iskloo_dandruff_morningstar_express.mp3",
   },
   {
     date: "2014 Sep 1",
     name: "Chiptunes = WIN: Volume 3",
     info: "Vince Kaichan - In The Stars",
     art: "img/chipwin_vol3_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=2932817551/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=1123153428/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/chiptunes-win-volume-3">Chiptunes = WIN: Volume 3 by Vince Kaichan</a></iframe>`
+    link: "mp3/vince_kaichan_-_in_the_stars.mp3",
   },
   {
     date: "2015 Aug 13",
@@ -53,7 +53,7 @@ const compo_list = [
     name: "Bundle of WIN",
     info: "Vince Kaichan - Rollerdisco Rumble",
     art: "img/bundle_of_win_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=4073233613/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=2079466551/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/bundle-of-win">Bundle of WIN by Vince Kaichan</a></iframe>`
+    link: "mp3/vince_kaichan_-_rollerdisco_rumble.mp3"
   },
   {
     date: "2016 Jun 6",
@@ -88,14 +88,14 @@ const compo_list = [
     name: "Chiptunes = WIN: Volume 6",
     info: "Vince Kaichan - Mistral",
     art: "img/chipwin_vol6_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1677762460/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=1199164583/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/chiptunes-win-volume-6">Chiptunes = WIN: Volume 6 by Vince Kaichan</a></iframe>`
+    link: "mp3/vince_kaichan_-_mistral.mp3"
   },
   {
     date: "2018 Dec 7",
     name: "ChipWINter Madness",
     info: "Vince Kaichan - Carriage Ride",
     art: "img/chipwinter_madness_200px.png",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=3815333075/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=3943713221/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/chipwinter-wilderness">ChipWINter Wilderness by Vince Kaichan</a></iframe>`
+    link: "mp3/vince_kaichan_-_carriage_ride_mastered.mp3"
   },
 ];
 
@@ -132,7 +132,16 @@ function load_bandcamp_embed(element, compo_embed) {
   for (let [index, compo] of table_list.entries()) {
     let img = document.getElementById("compo_" + index);
     img.addEventListener("click", () => {
-      load_bandcamp_embed(img, compo.embed);
+      embed_html = img.innerHTML;
+      if (compo.embed === undefined)
+      {
+        embed_html += `<br><audio controls src="${compo.link}" preload="none"></audio>`;
+      }
+      else 
+      {
+        embed_html = compo.embed;
+      }
+      load_bandcamp_embed(img, embed_html);
     });
   }
 })(true);
