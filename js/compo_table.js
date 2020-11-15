@@ -132,10 +132,9 @@ function load_bandcamp_embed(element, compo_embed) {
   for (let [index, compo] of table_list.entries()) {
     let img = document.getElementById("compo_" + index);
     img.addEventListener("click", () => {
-      embed_html = img.innerHTML;
       if (compo.embed === undefined)
       {
-        embed_html += `<br><audio controls src="${compo.link}" preload="none"></audio>`;
+        embed_html = img.parentElement.innerHTML + `<br><audio controls src="${compo.link}" preload="none"></audio>`;
       }
       else 
       {
