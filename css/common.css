@@ -62,6 +62,8 @@ hr {
 
 .album-art {
     cursor: pointer;
+    display: block;
+    margin: auto;
 }
 
 a[id*=toggle] {
