@@ -4,21 +4,21 @@ const compo_list = [
     name: "Chip for Cancer vol. 1",
     info: "Vince Kaichan - Neolectrical. made in LSDJ",
     art: "img/chip_for_cancer_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=3520397300/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=289297633/transparent=true/" seamless><a href="http://chipforcancer.bandcamp.com/album/chip-for-cancer-vol-i">Chip for Cancer [vol. I] by Chip for Cancer</a></iframe>`
+    embed: `<iframe style="border: 0; width: 200px; height: 200px; display: block; margin: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=3520397300/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=289297633/transparent=true/" seamless><a href="http://chipforcancer.bandcamp.com/album/chip-for-cancer-vol-i">Chip for Cancer [vol. I] by Chip for Cancer</a></iframe>`
   },
   {
     date: "2012 Dec 10",
     name: "chipWINter",
     info: "Vince Kaichan - Midnight Snowflake. made in SunVox",
     art: "img/chipwinter_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1014498065/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=41518200/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/chipwinter">chipWINter by Vince Kaichan</a></iframe>`
+    embed: `<iframe style="border: 0; width: 200px; height: 200px; display: block; margin: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=1014498065/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=41518200/transparent=true/" seamless><a href="http://chiptuneswin.bandcamp.com/album/chipwinter">chipWINter by Vince Kaichan</a></iframe>`
   },
   {
     date: "2013 Jan 4",
     name: "Weekly Treats 2013",
     info: "Vince Kaichan - Dog Days. made in LSDJ",
     art: "img/dog_days_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=4081551513/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=287675554/transparent=true/" seamless><a href="http://weeklytreats.bandcamp.com/album/2013">2013 by Vince Kaichan</a></iframe>`
+    embed: `<iframe style="border: 0; width: 200px; height: 200px; display: block; margin: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=4081551513/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=287675554/transparent=true/" seamless><a href="http://weeklytreats.bandcamp.com/album/2013">2013 by Vince Kaichan</a></iframe>`
   },
   {
     date: "2013 Jul 15",
@@ -39,14 +39,14 @@ const compo_list = [
     name: "STAFFcirc vol. 1",
     info: "Vince Kaichan - Pond Scunk",
     art: "img/staffcirc_vol1_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=3165216901/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://ubiktune.bandcamp.com/album/staffcirc-vol-1">STAFFcirc vol. 1 by Ubiktune</a></iframe>`
+    embed: `<iframe style="border: 0; width: 200px; height: 200px; display: block; margin: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=3165216901/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://ubiktune.bandcamp.com/album/staffcirc-vol-1">STAFFcirc vol. 1 by Ubiktune</a></iframe>`
   },
   {
     date: "2015 Dec 17",
     name: "DESKTAPE",
     info: "Vince Kaichan - Sunset Riders",
     art: "img/desktape_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1522277511/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=4008406192/transparent=true/" seamless><a href="http://deskpopmusic.bandcamp.com/album/desktape">DESKTAPE by Vince Kaichan</a></iframe>`
+    embed: `<iframe style="border: 0; width: 200px; height: 200px; display: block; margin: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=1522277511/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=4008406192/transparent=true/" seamless><a href="http://deskpopmusic.bandcamp.com/album/desktape">DESKTAPE by Vince Kaichan</a></iframe>`
   },
   {
     date: "2015 Dec 22",
@@ -60,28 +60,28 @@ const compo_list = [
     name: "STAFFCIRC vol. 2 - AI BOMB VARIATIONS",
     info: "Vince Kaichan - Bomba da Mente Mecanica",
     art: "img/staffcirc_vol2_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=2373902463/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=3054873907/transparent=true/" seamless><a href="http://sexytoadsandfrogsfriendcircle.bandcamp.com/album/staffcirc-vol-2-ai-bomb-variations">STAFFcirc vol. 2 - AI BOMB VARIATIONS by Vince Kaichan</a></iframe>`
+    embed: `<iframe style="border: 0; width: 200px; height: 200px; display: block; margin: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=2373902463/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=3054873907/transparent=true/" seamless><a href="http://sexytoadsandfrogsfriendcircle.bandcamp.com/album/staffcirc-vol-2-ai-bomb-variations">STAFFcirc vol. 2 - AI BOMB VARIATIONS by Vince Kaichan</a></iframe>`
   },
   {
     date: "2017 Feb 22",
     name: "Balearic Beats vol 43 - Chipmusic sounds of summer",
     info: "Vince Kaichan - Unconditional",
     art: "img/balearic_beats_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1289924032/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=2895950747/transparent=true/" seamless><a href="http://chippanze.bandcamp.com/album/kr075-cp077-balearic-beats-vol-43-chipmusic-sounds-of-summer">[KR075][CP077] Balearic Beats vol 43 - Chipmusic sounds of summer by Vince Kaichan</a></iframe>`
+    embed: `<iframe style="border: 0; width: 200px; height: 200px; display: block; margin: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=1289924032/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=2895950747/transparent=true/" seamless><a href="http://chippanze.bandcamp.com/album/kr075-cp077-balearic-beats-vol-43-chipmusic-sounds-of-summer">[KR075][CP077] Balearic Beats vol 43 - Chipmusic sounds of summer by Vince Kaichan</a></iframe>`
   },
   {
     date: "2017 Jul 26",
     name: "~ fleeting moments ~",
     info: "Vince Kaichan - birb",
     art: "img/fleeting_moments_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=2281353016/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=1735097333/transparent=true/" seamless><a href="http://deskpopmusic.bandcamp.com/album/fleeting-moments">~ fleeting moments ~ by Vince Kaichan</a></iframe>`
+    embed: `<iframe style="border: 0; width: 200px; height: 200px; display: block; margin: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=2281353016/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=1735097333/transparent=true/" seamless><a href="http://deskpopmusic.bandcamp.com/album/fleeting-moments">~ fleeting moments ~ by Vince Kaichan</a></iframe>`
   },
   {
     date: "2017 Aug 1",
     name: "STAFFcirc vol. 3⇋: TERMINAL VICE",
     info: "Vince Kaichan - Roll Those Dice!",
     art: "img/staffcirc_vol3_200px.jpg",
-    embed: `<iframe style="border: 0; width: 200px; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1307777530/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=3041313973/transparent=true/" seamless><a href="http://sexytoadsandfrogsfriendcircle.bandcamp.com/album/staffcirc-vol-3-terminal-vice">STAFFcirc vol. 3⇋: TERMINAL VICE by Vince Kaichan</a></iframe>`
+    embed: `<iframe style="border: 0; width: 200px; height: 200px; display: block; margin: auto;" src="https://bandcamp.com/EmbeddedPlayer/album=1307777530/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=3041313973/transparent=true/" seamless><a href="http://sexytoadsandfrogsfriendcircle.bandcamp.com/album/staffcirc-vol-3-terminal-vice">STAFFcirc vol. 3⇋: TERMINAL VICE by Vince Kaichan</a></iframe>`
   },
   {
     date: "2017 Aug 11",
