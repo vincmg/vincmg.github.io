@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>vince kaichan</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <body>
+        <div id="Container">
+            <br>
+            <div id="banner">
+                <h1>vince kaichan</h1>
+            </div>
+            <br>
+            <br>
+            <div class="center-text">
+                <div class="nav-buttons"><a href="#works">works</a> | <a href="#contact">contact</a></div>
+            </div>
+            <br>
+
+            <p class="center-text">
+                i make music in lots of styles including chiptune, orchestral, jazz, pop, dance, and more.<br>currently in a footwork/juke-inspired phase.
+                <br>
+                <br>
+                i use <a href="https://en.wikipedia.org/wiki/Music_tracker">tracker software</a> such as <a href="http://www.littlesounddj.com/lsd/index.php">LSDJ</a>, <a href="https://openmpt.org">openmpt</a>, and most recently <a href="https://www.renoise.com">renoise</a> for the majority of my music.
+            </p>
+            <br>
+
+            <hr>
+            <div class="stuff">
+                <h2 id="works">works</h2>
+                <h3><a id="releases-toggle">albums/EPs <span id="album-count"></span></a></h3>
+                <div class="center-text">my original music</div>
+                <br>
+                <div class="music-list-container">
+                    <table id="releases" class="music-list">
+                    {# TODO TODO #}
+                    </table>
+                </div>
+                <br>
+                <hr style="width: 50%;">
+
+                <h3><a id="compos-toggle">compilations <span id="compo-count"></span></a></h3>
+                <div class="center-text">compilation albums that i've appeared in</div>
+                <br>
+                <div class="music-list-container">
+                    <table id="compilations" class="music-list">
+                      <tr> 
+                        <th>date</th>
+                        <th>name</th>
+                        <th>info</th>
+                        <th>art <br> (click to play)</th>
+                      </tr>
+                    {# TODO TODO load 'albums' variable from json file #}
+                    {% for album in albums %}
+                        <tr>
+                            <td>{{ album.date }}</td>
+                            <td>{{ album.name }}</td>
+                            <td>{{ album.info.replace('\n', '<br>') }}</td>
+                            <td>
+                                <img class="album-art" id="album_ loop.index0" src="album.art" alt="album.name">
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </table>
+                </div>
+                <br>
+                <hr style="width: 50%;">
+
+                <h3><a id="commissions-toggle">commissions <span id="commission-count"></span></a></h3>
+                <div class="center-text">things i've made for other people as part of a larger project</div>
+                <br>
+                <div class="music-list-container">
+                    <table id="commissions" class="music-list">
+                    {# TODO TODO #}
+                    </table>
+                </div>
+                <br>
+                <hr style="width: 50%;">
+
+                <h3><a id="misc-toggle">misc <span id="misc-count"></span></a></h3>
+                <div class="center-text">various other songs i've done<br>
+                    may not be a complete list<br>
+                    some songs may be louder or quieter than others, please be careful!<br>
+                    if a song is broken or missing please <a href="#contact">contact</a> me<br>
+                </div>
+                <br>
+                <div class="music-list-container">
+                    <table id="misc-songs" class="music-list">
+                    {# TODO TODO #}
+                    </table>
+                </div>
+                <br>
+            </div>
+            <hr>
+
+            <h2 id="contact">contact</h2>
+            <p class="center-text">
+                twitter: <a href="https://twitter.com/VinceKaichan">@VinceKaichan</a><br>
+                soundcloud: <a href="https://soundcloud.com/vincmg">vincmg</a><br>
+                email: <a href="mailto:vincekaichan@gmail.com">vincekaichan@gmail.com</a>
+            </p>
+
+            <hr>
+            <div id="footer"></div>
+
+        </div>
+        <button id="top-button" onclick="goto_top()">go to top</button>
+
+        <script type="text/javascript" src="js/footer.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/album_table.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/compo_table.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/commission_table.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/song_table.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/expandable_list.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/goto_top.js" charset="utf-8"></script>
+    </body>
+</html>
