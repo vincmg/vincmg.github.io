@@ -14,6 +14,16 @@ if __name__ == '__main__':
         compo_list = json.load(compo_file)
     with open('./json/commission_list.json', 'r') as commission_file:
         commission_list = json.load(commission_file)
+    with open('./json/song_list.json', 'r') as song_file:
+        song_list = json.load(song_file)
+
+    # raw json files are sorted by ascending date
+    album_list.reverse()
+    compo_list.reverse()
+    commission_list.reverse()
+
+    # TODO sort song list by descending date; raw json file is sorted by song name
+    # song_list.sort(TODO)
 
     env = Environment(
             loader=FileSystemLoader('./templates/'),
