@@ -33,7 +33,23 @@
                 <br>
                 <div class="music-list-container">
                     <table id="releases" class="music-list">
-                    {# TODO TODO #}
+                      <tr> 
+                        <th>date</th>
+                        <th>name</th>
+                        <th>info</th>
+                        <th>art <br> (click to play)</th>
+                      </tr>
+                      {% for album in albums %}
+                      <tr>
+                          <td>{{ album.date }}</td>
+                          <td>{{ album.name }}</td>
+                          <td>{{ album.info.replace('\n', '<br>') }}</td>
+                          <td>
+                              <img class="album-art" id="album_{{ loop.index0 }}" src="{{ album.art }}" alt="{{ album.name }}">
+                              {# TODO TODO figure out how to add bandcamp embed as an onclick function #}
+                          </td>
+                      </tr>
+                      {% endfor %}
                     </table>
                 </div>
                 <br>
@@ -46,21 +62,21 @@
                     <table id="compilations" class="music-list">
                       <tr> 
                         <th>date</th>
-                        <th>name</th>
-                        <th>info</th>
+                        <th>compilation name</th>
+                        <th>track title </th>
                         <th>art <br> (click to play)</th>
                       </tr>
-                    {# TODO TODO load 'albums' variable from json file #}
-                    {% for album in albums %}
-                        <tr>
-                            <td>{{ album.date }}</td>
-                            <td>{{ album.name }}</td>
-                            <td>{{ album.info.replace('\n', '<br>') }}</td>
-                            <td>
-                                <img class="album-art" id="album_ loop.index0" src="album.art" alt="album.name">
-                            </td>
-                        </tr>
-                    {% endfor %}
+                      {% for compo in compilations %}
+                      <tr>
+                          <td>{{ compo.date }}</td>
+                          <td>{{ compo.name }}</td>
+                          <td>{{ compo.info.replace('\n', '<br>') }}</td>
+                          <td>
+                              <img class="album-art" id="compo_{{ loop.index0 }}" src="{{ compo.art }}" alt="{{ compo.name }}">
+                              {# TODO TODO figure out how to add bandcamp embed as an onclick function #}
+                          </td>
+                      </tr>
+                      {% endfor %}
                     </table>
                 </div>
                 <br>
@@ -71,7 +87,23 @@
                 <br>
                 <div class="music-list-container">
                     <table id="commissions" class="music-list">
-                    {# TODO TODO #}
+                      <tr> 
+                        <th>date</th>
+                        <th>name</th>
+                        <th>info</th>
+                        <th>art <br> (click to play)</th>
+                      </tr>
+                      {% for com in commissions %}
+                      <tr>
+                          <td>{{ com.date }}</td>
+                          <td>{{ com.name }}</td>
+                          <td>{{ com.info.replace('\n', '<br>') }}</td>
+                          <td>
+                              <img class="album-art" id="commission_{{ loop.index0 }}" src="{{ com.art }}" alt="{{ com.name }}">
+                              {# TODO TODO figure out how to add bandcamp embed as an onclick function #}
+                          </td>
+                      </tr>
+                      {% endfor %}
                     </table>
                 </div>
                 <br>
