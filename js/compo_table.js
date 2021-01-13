@@ -99,8 +99,6 @@ const compo_list = [
   },
 ];
 
-console.log(JSON.stringify(compo_list));
-
 function load_bandcamp_embed(element, compo_embed) {
     let td_parent = element.parentElement;
     td_parent.innerHTML = compo_embed;
