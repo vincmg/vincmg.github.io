@@ -28,7 +28,7 @@
             <hr>
             <div class="stuff">
                 <h2 id="works">works</h2>
-                <h3><a id="releases-toggle">albums/EPs <span id="album-count"></span></a></h3>
+                <h3><a id="releases-toggle">albums/EPs ({{ albums|length }}) </a></h3>
                 <div class="center-text">my original music</div>
                 <br>
                 <div class="music-list-container">
@@ -55,7 +55,7 @@
                 <br>
                 <hr style="width: 50%;">
 
-                <h3><a id="compos-toggle">compilations <span id="compo-count"></span></a></h3>
+                <h3><a id="compos-toggle">compilations ({{ compilations|length }})</span></a></h3>
                 <div class="center-text">compilation albums that i've appeared in</div>
                 <br>
                 <div class="music-list-container">
@@ -82,7 +82,7 @@
                 <br>
                 <hr style="width: 50%;">
 
-                <h3><a id="commissions-toggle">commissions <span id="commission-count"></span></a></h3>
+                <h3><a id="commissions-toggle">commissions ({{ commissions|length }})</span></a></h3>
                 <div class="center-text">things i've made for other people as part of a larger project</div>
                 <br>
                 <div class="music-list-container">
