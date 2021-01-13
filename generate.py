@@ -5,7 +5,6 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 # TODO TODO
 # figure out how to attach the event listeners in the template
-# load and format song list
 
 if __name__ == '__main__':
     with open('./json/album_list.json', 'r') as album_file:
@@ -27,7 +26,7 @@ if __name__ == '__main__':
 
     env = Environment(
             loader=FileSystemLoader('./templates/'),
-            autoescape=select_autoescape(['html', 'xml']), # TODO is this necessary?
+            autoescape=select_autoescape(['html', 'xml']),
             trim_blocks=True,
             lstrip_blocks=True,
     )
