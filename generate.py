@@ -22,16 +22,18 @@ if __name__ == '__main__':
     compo_list.reverse()
     commission_list.reverse()
 
-    # TODO sort song list by descending date; raw json file is sorted by song name
-    # song_list.sort(TODO)
+    # raw json file is sorted by song name
+    song_list.sort(key=lambda song: song['date'], reverse=True)
 
     env = Environment(
             loader=FileSystemLoader('./templates/'),
-            autoescape=select_autoescape(['html', 'xml']) # TODO is this necessary?
+            autoescape=select_autoescape(['html', 'xml']), # TODO is this necessary?
+            trim_blocks=True,
+            lstrip_blocks=True,
     )
     template = env.get_template('index.html.jinja')
 
-    rendered_page = template.render(albums=album_list, compilations=compo_list, commissions=commission_list)
+    rendered_page = template.render(albums=album_list, compilations=compo_list, commissions=commission_list, songs=song_list)
     print(rendered_page)
 
     with open('./index.html', 'w') as outfile:

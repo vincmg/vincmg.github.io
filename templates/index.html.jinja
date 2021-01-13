@@ -109,7 +109,7 @@
                 <br>
                 <hr style="width: 50%;">
 
-                <h3><a id="misc-toggle">misc <span id="misc-count"></span></a></h3>
+                <h3><a id="misc-toggle">misc ({{ songs|length }})</span></a></h3>
                 <div class="center-text">various other songs i've done<br>
                     may not be a complete list<br>
                     some songs may be louder or quieter than others, please be careful!<br>
@@ -119,6 +119,24 @@
                 <div class="music-list-container">
                     <table id="misc-songs" class="music-list">
                     {# TODO TODO #}
+                      <tr> 
+                        <th>year</th>
+                        <th>name</th>
+                        <th>info</th>
+                        <th>link</th>
+                      </tr>
+                    {% for song in songs %}
+                      <tr>
+                        <td>{{ song.date }}</td>
+                        <td>{{ song.name }}</td>
+                        <td>{{ song.info.replace('\n', '<br>') }}</td>
+                        {% if song.link == None %}
+                        <td>no download yet</td>
+                        {% else %}
+                        <td><audio controls src="{{ song.link }}" preload="none"></audio></td>
+                        {% endif %}
+                      </tr>
+                    {% endfor %}
                     </table>
                 </div>
                 <br>

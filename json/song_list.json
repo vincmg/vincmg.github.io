@@ -73,6 +73,7 @@
     },
     {
         "date": 2014,
+        "link": null,
         "info": "made for an unfinished video game development club project in 2014",
         "name": "crystal ice caves"
     },
@@ -90,6 +91,7 @@
     },
     {
         "date": 2012,
+        "link": null,
         "info": "overworld bgm for a highschool game project",
         "name": "Darkedge Overworld Theme"
     },
@@ -221,6 +223,7 @@
     },
     {
         "date": 2014,
+        "link": null,
         "info": "an outtake from Yolanda. made in LSDJ",
         "name": "Mambo Jambo"
     },
@@ -286,6 +289,7 @@
     },
     {
         "date": 2012,
+        "link": null,
         "info": "a dance song i wrote at 15 years old to be played live but i never did perform it live. made in LSDJ",
         "name": "PQM"
     },
