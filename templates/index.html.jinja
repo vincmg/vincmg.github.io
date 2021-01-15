@@ -50,7 +50,7 @@
                                 var img = document.getElementById("album_{{ loop.index0 }}");
                                 img.addEventListener("click", 
                                     function() {
-                                        img.innerHTML = `{{ album.embed }}`;
+                                        img.outerHTML = `{{ album.embed }}`;
                                     });
                               </script>
                           </td>
@@ -87,7 +87,7 @@
                                 img.addEventListener("click", 
                                     function() {
                                         {% if compo.embed %}
-                                        img.innerHTML = `{{ compo.embed }}`;
+                                        img.outerHTML = `{{ compo.embed }}`;
                                         {% elif compo.link %}
                                         var span = document.getElementById("compo_link_{{ loop.index0 }}");
                                         span.innerHTML = `<br><audio controls src="{{ compo.link }}" preload="none"></audio>`;
@@ -127,7 +127,7 @@
                                 var img = document.getElementById("com_{{ loop.index0 }}");
                                 img.addEventListener("click", 
                                     function() {
-                                        img.innerHTML = `{{ com.embed }}`;
+                                        img.outerHTML = `{{ com.embed }}`;
                                     });
                               </script>
                           </td>
