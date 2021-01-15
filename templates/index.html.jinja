@@ -87,7 +87,7 @@
                                 img.addEventListener("click", 
                                     function() {
                                         {% if compo.embed %}
-                                        img.parentElement.innerHTML = `{{ compo.embed }}`;
+                                        img.innerHTML = `{{ compo.embed }}`;
                                         {% elif compo.link %}
                                         var span = document.getElementById("compo_link_{{ loop.index0 }}");
                                         span.innerHTML = `<br><audio controls src="{{ compo.link }}" preload="none"></audio>`;
