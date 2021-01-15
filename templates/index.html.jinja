@@ -32,31 +32,33 @@
                 <div class="center-text">my original music</div>
                 <br>
                 <div class="music-list-container">
-                    <table id="releases" class="music-list">
-                      <tr> 
-                        <th>date</th>
-                        <th>name</th>
-                        <th>info</th>
-                        <th>art <br> (click to play)</th>
-                      </tr>
-                      {% for album in albums %}
-                      <tr>
-                          <td>{{ album.date }}</td>
-                          <td>{{ album.name }}</td>
-                          <td>{{ album.info.replace('\n', '<br>') }}</td>
-                          <td>
-                              <img class="album-art" id="album_{{ loop.index0 }}" src="{{ album.art }}" alt="{{ album.name }}"></img>
-                              <script type="text/javascript" charset="utf-8">
-                                var img = document.getElementById("album_{{ loop.index0 }}");
-                                img.addEventListener("click", 
-                                    function() {
-                                        img.outerHTML = `{{ album.embed }}`;
-                                    });
-                              </script>
-                          </td>
-                      </tr>
-                      {% endfor %}
-                    </table>
+                  <table id="releases" class="music-list">
+                    <tr> 
+                      <th>date</th>
+                      <th>name</th>
+                      <th>info</th>
+                      <th>art <br> (click to play)</th>
+                    </tr>
+                    {% for album in albums %}
+                    <tr>
+                      <td>{{ album.date }}</td>
+                      <td>{{ album.name }}</td>
+                      <td>{{ album.info.replace('\n', '<br>') }}</td>
+                      <td>
+                        <img class="album-art" id="album_{{ loop.index0 }}" src="{{ album.art }}" alt="{{ album.name }}"></img>
+                        <script type="text/javascript" charset="utf-8">
+                        (function() {
+                          var img = document.getElementById("album_{{ loop.index0 }}");
+                          img.addEventListener("click", 
+                            function() {
+                              img.outerHTML = `{{ album.embed }}`;
+                            });
+                        })();
+                        </script>
+                      </td>
+                    </tr>
+                    {% endfor %}
+                  </table>
                 </div>
                 <br>
                 <hr style="width: 50%;">
@@ -65,42 +67,44 @@
                 <div class="center-text">compilation albums that i've appeared in</div>
                 <br>
                 <div class="music-list-container">
-                    <table id="compilations" class="music-list">
-                      <tr> 
-                        <th>date</th>
-                        <th>compilation name</th>
-                        <th>track title </th>
-                        <th>art <br> (click to play)</th>
-                      </tr>
-                      {% for compo in compilations %}
-                      <tr>
-                          <td>{{ compo.date }}</td>
-                          <td>{{ compo.name }}</td>
-                          <td>{{ compo.info.replace('\n', '<br>') }}</td>
-                          <td>
-                              <img class="album-art" id="compo_{{ loop.index0 }}" src="{{ compo.art }}" alt="{{ compo.name }}"></img>
-                              {% if compo.link and not compo.embed %}
-                              <div id="compo_link_{{ loop.index0 }}"></div>
+                  <table id="compilations" class="music-list">
+                    <tr> 
+                      <th>date</th>
+                      <th>compilation name</th>
+                      <th>track title </th>
+                      <th>art <br> (click to play)</th>
+                    </tr>
+                    {% for compo in compilations %}
+                    <tr>
+                      <td>{{ compo.date }}</td>
+                      <td>{{ compo.name }}</td>
+                      <td>{{ compo.info.replace('\n', '<br>') }}</td>
+                      <td>
+                        <img class="album-art" id="compo_{{ loop.index0 }}" src="{{ compo.art }}" alt="{{ compo.name }}"></img>
+                        {% if compo.link and not compo.embed %}
+                        <div id="compo_link_{{ loop.index0 }}"></div>
+                        {% endif %}
+                        <script type="text/javascript" charset="utf-8">
+                        (function() {
+                          var img = document.getElementById("compo_{{ loop.index0 }}");
+                          img.addEventListener("click", 
+                            function() {
+                              {% if compo.embed %}
+                              img.outerHTML = `{{ compo.embed }}`;
+                              {% elif compo.link %}
+                              var span = document.getElementById("compo_link_{{ loop.index0 }}");
+                              span.innerHTML = `<br><audio controls src="{{ compo.link }}" preload="none"></audio>`;
+                              {% else %}
+                              var span = document.getElementById("compo_link_{{ loop.index0 }}");
+                              span.innerHTML = "not available";
                               {% endif %}
-                              <script type="text/javascript" charset="utf-8">
-                                var img = document.getElementById("compo_{{ loop.index0 }}");
-                                img.addEventListener("click", 
-                                    function() {
-                                        {% if compo.embed %}
-                                        img.outerHTML = `{{ compo.embed }}`;
-                                        {% elif compo.link %}
-                                        var span = document.getElementById("compo_link_{{ loop.index0 }}");
-                                        span.innerHTML = `<br><audio controls src="{{ compo.link }}" preload="none"></audio>`;
-                                        {% else %}
-                                        var span = document.getElementById("compo_link_{{ loop.index0 }}");
-                                        span.innerHTML = "not available";
-                                        {% endif %}
-                                    });
-                              </script>
-                          </td>
-                      </tr>
-                      {% endfor %}
-                    </table>
+                            });
+                        })();
+                        </script>
+                      </td>
+                    </tr>
+                    {% endfor %}
+                  </table>
                 </div>
                 <br>
                 <hr style="width: 50%;">
@@ -109,31 +113,33 @@
                 <div class="center-text">things i've made for other people as part of a larger project</div>
                 <br>
                 <div class="music-list-container">
-                    <table id="commissions" class="music-list">
-                      <tr> 
-                        <th>date</th>
-                        <th>name</th>
-                        <th>info</th>
-                        <th>art <br> (click to play)</th>
-                      </tr>
-                      {% for com in commissions %}
-                      <tr>
-                          <td>{{ com.date }}</td>
-                          <td>{{ com.name }}</td>
-                          <td>{{ com.info.replace('\n', '<br>') }}</td>
-                          <td>
-                              <img class="album-art" id="com_{{ loop.index0 }}" src="{{ com.art }}" alt="{{ com.name }}"></img>
-                              <script type="text/javascript" charset="utf-8">
-                                var img = document.getElementById("com_{{ loop.index0 }}");
-                                img.addEventListener("click", 
-                                    function() {
-                                        img.outerHTML = `{{ com.embed }}`;
-                                    });
-                              </script>
-                          </td>
-                      </tr>
-                      {% endfor %}
-                    </table>
+                  <table id="commissions" class="music-list">
+                    <tr> 
+                      <th>date</th>
+                      <th>name</th>
+                      <th>info</th>
+                      <th>art <br> (click to play)</th>
+                    </tr>
+                    {% for com in commissions %}
+                    <tr>
+                      <td>{{ com.date }}</td>
+                      <td>{{ com.name }}</td>
+                      <td>{{ com.info.replace('\n', '<br>') }}</td>
+                      <td>
+                        <img class="album-art" id="com_{{ loop.index0 }}" src="{{ com.art }}" alt="{{ com.name }}"></img>
+                        <script type="text/javascript" charset="utf-8">
+                        (function(){
+                          var img = document.getElementById("com_{{ loop.index0 }}");
+                          img.addEventListener("click", 
+                            function() {
+                              img.outerHTML = `{{ com.embed }}`;
+                            });
+                        })();
+                        </script>
+                      </td>
+                    </tr>
+                    {% endfor %}
+                  </table>
                 </div>
                 <br>
                 <hr style="width: 50%;">
@@ -146,26 +152,26 @@
                 </div>
                 <br>
                 <div class="music-list-container">
-                    <table id="misc-songs" class="music-list">
-                      <tr> 
-                        <th>year</th>
-                        <th>name</th>
-                        <th>info</th>
-                        <th>link</th>
-                      </tr>
+                  <table id="misc-songs" class="music-list">
+                    <tr> 
+                      <th>year</th>
+                      <th>name</th>
+                      <th>info</th>
+                      <th>link</th>
+                    </tr>
                     {% for song in songs %}
-                      <tr>
-                        <td>{{ song.date }}</td>
-                        <td>{{ song.name }}</td>
-                        <td>{{ song.info.replace('\n', '<br>') }}</td>
-                        {% if song.link == None %}
-                        <td>no download yet</td>
-                        {% else %}
-                        <td><audio controls src="{{ song.link }}" preload="none"></audio></td>
-                        {% endif %}
-                      </tr>
+                    <tr>
+                      <td>{{ song.date }}</td>
+                      <td>{{ song.name }}</td>
+                      <td>{{ song.info.replace('\n', '<br>') }}</td>
+                      {% if song.link == None %}
+                      <td>no download yet</td>
+                      {% else %}
+                      <td><audio controls src="{{ song.link }}" preload="none"></audio></td>
+                      {% endif %}
+                    </tr>
                     {% endfor %}
-                    </table>
+                  </table>
                 </div>
                 <br>
             </div>
