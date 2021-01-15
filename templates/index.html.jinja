@@ -45,8 +45,14 @@
                           <td>{{ album.name }}</td>
                           <td>{{ album.info.replace('\n', '<br>') }}</td>
                           <td>
-                              <img class="album-art" id="album_{{ loop.index0 }}" src="{{ album.art }}" alt="{{ album.name }}">
-                              {# TODO TODO figure out how to add bandcamp embed as an onclick function #}
+                              <img class="album-art" id="album_{{ loop.index0 }}" src="{{ album.art }}" alt="{{ album.name }}"></img>
+                              <script type="text/javascript" charset="utf-8">
+                                var img = document.getElementById("album_{{ loop.index0 }}");
+                                img.addEventListener("click", 
+                                    function() {
+                                        img.innerHTML = `{{ album.embed }}`;
+                                    });
+                              </script>
                           </td>
                       </tr>
                       {% endfor %}
@@ -72,8 +78,25 @@
                           <td>{{ compo.name }}</td>
                           <td>{{ compo.info.replace('\n', '<br>') }}</td>
                           <td>
-                              <img class="album-art" id="compo_{{ loop.index0 }}" src="{{ compo.art }}" alt="{{ compo.name }}">
-                              {# TODO TODO figure out how to add bandcamp embed as an onclick function #}
+                              <img class="album-art" id="compo_{{ loop.index0 }}" src="{{ compo.art }}" alt="{{ compo.name }}"></img>
+                              {% if compo.link and not compo.embed %}
+                              <div id="compo_link_{{ loop.index0 }}"></div>
+                              {% endif %}
+                              <script type="text/javascript" charset="utf-8">
+                                var img = document.getElementById("compo_{{ loop.index0 }}");
+                                img.addEventListener("click", 
+                                    function() {
+                                        {% if compo.embed %}
+                                        img.parentElement.innerHTML = `{{ compo.embed }}`;
+                                        {% elif compo.link %}
+                                        var span = document.getElementById("compo_link_{{ loop.index0 }}");
+                                        span.innerHTML = `<br><audio controls src="{{ compo.link }}" preload="none"></audio>`;
+                                        {% else %}
+                                        var span = document.getElementById("compo_link_{{ loop.index0 }}");
+                                        span.innerHTML = "not available";
+                                        {% endif %}
+                                    });
+                              </script>
                           </td>
                       </tr>
                       {% endfor %}
@@ -99,8 +122,14 @@
                           <td>{{ com.name }}</td>
                           <td>{{ com.info.replace('\n', '<br>') }}</td>
                           <td>
-                              <img class="album-art" id="commission_{{ loop.index0 }}" src="{{ com.art }}" alt="{{ com.name }}">
-                              {# TODO TODO figure out how to add bandcamp embed as an onclick function #}
+                              <img class="album-art" id="com_{{ loop.index0 }}" src="{{ com.art }}" alt="{{ com.name }}"></img>
+                              <script type="text/javascript" charset="utf-8">
+                                var img = document.getElementById("com_{{ loop.index0 }}");
+                                img.addEventListener("click", 
+                                    function() {
+                                        img.innerHTML = `{{ com.embed }}`;
+                                    });
+                              </script>
                           </td>
                       </tr>
                       {% endfor %}

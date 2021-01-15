@@ -3,9 +3,6 @@
 import json
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-# TODO TODO
-# figure out how to attach the event listeners in the template
-
 if __name__ == '__main__':
     with open('./json/album_list.json', 'r') as album_file:
         album_list = json.load(album_file)
@@ -33,7 +30,6 @@ if __name__ == '__main__':
     template = env.get_template('index.html.jinja')
 
     rendered_page = template.render(albums=album_list, compilations=compo_list, commissions=commission_list, songs=song_list)
-    print(rendered_page)
 
     with open('./index.html', 'w') as outfile:
         outfile.write(rendered_page)
