@@ -96,5 +96,12 @@
         "info": "Vince Kaichan - Carriage Ride",
         "art": "img/chipwinter_madness_200px.png",
         "link": "mp3/vince_kaichan_-_carriage_ride_mastered.mp3"
+    },
+    {
+        "date": "2021 Feb 1",
+        "name": "STAFFCirc Vol. 7: Terra Octava",
+        "info": "Vince Kaichan - Ether",
+        "art": "img/staffcirc_vol7_200px.jpg",
+        "embed": "<iframe style=\"border: 0; width: 200px; height: 200px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2491403166/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/\" seamless><a href=\"https://sexytoadsandfrogsfriendcircle.bandcamp.com/album/staffcirc-vol-7-terra-octava\">STAFFcirc vol. 7 - Terra Octava by STAFFcirc</a></iframe>"
     }
 ]
