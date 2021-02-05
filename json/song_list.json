@@ -168,6 +168,12 @@
         "name": "Gotanda Lights"
     },
     {
+        "date": 2020,
+        "link": "mp3/vince_kaichan_-_gpop_beat.mp3",
+        "info": "an instrumental that was supposed to have vocals over it, but i never got around to finding a vocalist",
+        "name": "gpop"
+    },
+    {
         "date": 2012,
         "link": "mp3/vince_kaichan_-_hazy_evening.mp3",
         "info": "my second song with openmpt ever. it's not very good either",
@@ -304,6 +310,12 @@
         "link": "mp3/vince_kaichan_-_romanian_winter.mp3",
         "info": "an experiment in non-A440 tunings (the song is tuned to A460). partly inspired by a romanian drum n bass track that i liked a lot",
         "name": "Romanian Winter"
+    },
+    {
+        "date": 2020,
+        "link": "mp3/vince_kaichan_-_scofflaws.mp3",
+        "info": "a sketch made with some jungle samples",
+        "name": "scofflaws"
     },
     {
         "date": 2020,
