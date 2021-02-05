@@ -312,6 +312,12 @@
         "name": "Romanian Winter"
     },
     {
+        "date": 2020,
+        "link": "mp3/vince_kaichan_-_second.mp3",
+        "info": "a beat made from a sample of a new orleans second line brass band",
+        "name": "second"
+    },
+    {
         "date": 2017,
         "link": "mp3/vince_kaichan_-_shakeshack_galaxy.mp3",
         "info": "a song about burgers in space",
