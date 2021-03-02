@@ -12,6 +12,8 @@ if __name__ == '__main__':
         commission_list = json.load(commission_file)
     with open('./json/song_list.json', 'r') as song_file:
         song_list = json.load(song_file)
+    with open('./json/news_list.json', 'r') as news_file:
+        news_list = json.load(news_file)
 
     # raw json files are sorted by ascending date
     album_list.reverse()
@@ -29,7 +31,7 @@ if __name__ == '__main__':
     )
     template = env.get_template('index.html.jinja')
 
-    rendered_page = template.render(albums=album_list, compilations=compo_list, commissions=commission_list, songs=song_list)
+    rendered_page = template.render(news=news_list, albums=album_list, compilations=compo_list, commissions=commission_list, songs=song_list)
 
     with open('./index.html', 'w') as outfile:
         outfile.write(rendered_page)

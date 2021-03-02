@@ -40,9 +40,27 @@ hr {
     width: 100%;
 }
 
-.music-list-container {
+.list-container {
     width: 90%;
     margin: 0 auto;
+}
+
+.news-list {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.news-list th, .news-list td {
+    border: 1px black;
+    vertical-align: top;
+    padding: 10px;
+}
+.news-list td:first-child {
+    width: 18%;
+}
+
+.news-list td:first-child {
+    border-style: none solid none none;
 }
 
 .music-list {
