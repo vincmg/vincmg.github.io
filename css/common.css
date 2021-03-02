@@ -52,15 +52,13 @@ hr {
 
 .news-list th, .news-list td {
     border: 1px black;
+    border-style: none;
     vertical-align: top;
     padding: 10px;
 }
-.news-list td:first-child {
-    width: 18%;
-}
 
 .news-list td:first-child {
-    border-style: none solid none none;
+    width: 18%;
 }
 
 .music-list {
