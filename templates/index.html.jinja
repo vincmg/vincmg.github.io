@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>vince kaichan</title>
+        <link rel="alternate" type="application/rss+xml" href="https://vincekaichan.com/rss.xml" title="vince kaichan">
     </head>
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <body>
@@ -27,14 +28,14 @@
             <hr>
 
             <div class="stuff">
-                <h2 id="news">news</h2>
+                <h2 id="news">news <a href=rss.xml><img src=img/rss.png alt="rss"></img></a></h2>
                 <div class="list-container">
                   <table class="news-list">
                     {% for post in news[:news_count+1] %}
                         {# skip the initial entry that just has comments and instructions #}
                         {% if post.comment is undefined %}
                         <tr>
-                          <td>{{ post.date }}</td>
+                          <td>{{ post.date_str }}</td>
                           <td>{{ post.content }}</td>
                         </tr>
                         {% endif %}

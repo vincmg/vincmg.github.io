@@ -2,14 +2,18 @@
     {
         "comment": "this is an example format for a news post",
         "comment2": "ADD NEW ENTRIES TO THE END OF THIS LIST AT THE BOTTOM OF THIS FILE",
-        "date": "",
+        "date_str": "format that will be displayed on website",
+        "date": "rfc822 date format",
+        "title": "title that will be displayed in rss feed only",
         "type": "set this to 'site update' or 'blog post'",
         "link": "for blog posts only; url that links to the post's page",
         "content": "text that will be displayed on homepage"
     },
     {
-        "date": "2021 mar 02",
+        "date_str": "2021 mar 02",
+        "date": "02 Mar 2021 10:00 CST",
         "type": "site update",
+        "title": "first post",
         "content": "added this little news feed to the site. most of the entries will just be website updates/music release announcements but i plan on eventually using it for blog posts (once i figure out what i want to blog about...)"
     }
 ]

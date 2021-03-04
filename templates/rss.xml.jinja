@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <title>Vince Kaichan</title>
+    <description>site updates and blog posts for vince kaichan</description>
+    <link>https://vincekaichan.com</link>
+    {% for post in posts %}
+    <item>
+      <title>{{ post.type }}</title>
+      <description>{{ post.content }}</description>
+      {% if post.type == 'blog post' %}
+      <link>{{ post.link }}</link>
+      {% elif post.type is undefined or post.type == 'site update' %}
+      <link>https://vincekaichan.com</link>
+      {% endif %}
+      <pubDate>{{ post.date }}</pubDate>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

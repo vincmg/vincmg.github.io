@@ -56,7 +56,8 @@ if __name__ == '__main__':
     with open('./news.html', 'w') as news_outfile:
         news_outfile.write(rendered_news_archive)
 
+    rss_display_count = 1 # number of most recent posts to display in the rss feed on each update
     rss = env.get_template('rss.xml.jinja')
-    rendered_rss = rss.render(post=news_list[0])
+    rendered_rss = rss.render(posts=news_list[:rss_display_count])
     with open('./rss.xml', 'w') as rss_outfile:
         rss_outfile.write(rendered_rss)

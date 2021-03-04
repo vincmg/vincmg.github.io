@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <title>Vince Kaichan</title>
+    <description>site updates and blog posts for vince kaichan</description>
+    <link>https://vincekaichan.com</link>
+    <item>
+      <title>site update</title>
+      <description>added this little news feed to the site. most of the entries will just be website updates/music release announcements but i plan on eventually using it for blog posts (once i figure out what i want to blog about...)</description>
+      <link>https://vincekaichan.com</link>
+      <pubDate>02 Mar 2021 10:00 CST</pubDate>
+    </item>
+  </channel>
+</rss>
