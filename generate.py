@@ -46,5 +46,4 @@ if __name__ == '__main__':
 
     generate_page(env, 'news.html.jinja', dict(news=news_list))
 
-    rss_display_count = 1 # number of most recent posts to display in the rss feed on each update
-    generate_page(env, 'rss.xml.jinja', dict(posts=news_list[:rss_display_count]))
+    generate_page(env, 'rss.xml.jinja', dict(posts=news_list))
