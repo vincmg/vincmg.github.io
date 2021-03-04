@@ -24,7 +24,7 @@
                   <table class="news-list">
                     {% for post in news %}
                         {# skip the initial entry that just has comments and instructions #}
-                        {% if post.date is defined and post.content is defined %}
+                        {% if post.comment is undefined %}
                         <tr>
                           <td>{{ post.date }}</td>
                           <td>{{ post.content }}</td>

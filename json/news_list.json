@@ -1,9 +1,15 @@
 [
     {
-        "comment do not display": "ADD NEW ENTRIES TO THE END OF THIS LIST AT THE BOTTOM OF THIS FILE"
+        "comment": "this is an example format for a news post",
+        "comment2": "ADD NEW ENTRIES TO THE END OF THIS LIST AT THE BOTTOM OF THIS FILE",
+        "date": "",
+        "type": "set this to 'site update' or 'blog post'",
+        "link": "for blog posts only; url that links to the post's page",
+        "content": "text that will be displayed on homepage"
     },
     {
         "date": "2021 mar 02",
+        "type": "site update",
         "content": "added this little news feed to the site. most of the entries will just be website updates/music release announcements but i plan on eventually using it for blog posts (once i figure out what i want to blog about...)"
     }
 ]

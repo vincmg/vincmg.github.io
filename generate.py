@@ -3,6 +3,20 @@
 import json
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+def render_page(jinja_env: Environment, template_filepath: str, **params) -> None:
+    assert(template_filepath.endswith('.jinja'))
+    page_url = template_filepath.rsplit('.', maxsplit=1)
+
+    # DEBUG
+    print(page_url) 
+    input()
+
+    page = env.get_template(template_filepath)
+    rendered = page.render(**params)
+    with open(page_url, 'w') as outfile:
+        outfile.write(rendered)
+    
+
 if __name__ == '__main__':
     with open('./json/album_list.json', 'r') as album_file:
         album_list = json.load(album_file)
@@ -19,6 +33,7 @@ if __name__ == '__main__':
     album_list.reverse()
     compo_list.reverse()
     commission_list.reverse()
+    news_list.reverse()
 
     # raw json file is sorted by song name
     song_list.sort(key=lambda song: song['date'], reverse=True)
@@ -40,3 +55,8 @@ if __name__ == '__main__':
     rendered_news_archive = news_archive.render(news=news_list)
     with open('./news.html', 'w') as news_outfile:
         news_outfile.write(rendered_news_archive)
+
+    rss = env.get_template('rss.xml.jinja')
+    rendered_rss = rss.render(post=news_list[0])
+    with open('./rss.xml', 'w') as rss_outfile:
+        rss_outfile.write(rendered_rss)
