@@ -1,6 +1,5 @@
 TODOs
 
-- rss feed
 - make jinja template for long-form blogposts that looks consistent with the homepage
 - html ids for all albums/compos/commissions/songs so that the announcement feed can link directly to them
     - automatically make appropriate table visible when user clicks on an anchor link to an album/song
@@ -10,6 +9,6 @@ TODOs
 
 DONE
 
-
+- rss feed (still need to test it)
 - hide posts in the news feed beyond the Xth entry
     - show archive of all posts if the user clicks an "older posts" button or on a separate page
