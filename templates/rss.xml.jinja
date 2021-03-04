@@ -6,7 +6,7 @@
     <link>https://vincekaichan.com</link>
     {% for post in posts %}
     <item>
-      <title>{{ post.type }}</title>
+      <title>{{ post.title }}</title>
       <description>{{ post.content }}</description>
       {% if post.type == 'blog post' %}
       <link>{{ post.link }}</link>

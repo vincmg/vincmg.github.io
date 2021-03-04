@@ -5,10 +5,10 @@
     <description>site updates and blog posts for vince kaichan</description>
     <link>https://vincekaichan.com</link>
     <item>
-      <title>site update</title>
-      <description>added this little news feed to the site. most of the entries will just be website updates/music release announcements but i plan on eventually using it for blog posts (once i figure out what i want to blog about...)</description>
+      <title>rss feed now available</title>
+      <description>some friends said i should add an rss feed for these news posts so here it is. please let me know if anything isn't working correctly</description>
       <link>https://vincekaichan.com</link>
-      <pubDate>02 Mar 2021 10:00 CST</pubDate>
+      <pubDate>04 Mar 2021 11:40 CST</pubDate>
     </item>
   </channel>
 </rss>

@@ -15,5 +15,12 @@
         "type": "site update",
         "title": "first post",
         "content": "added this little news feed to the site. most of the entries will just be website updates/music release announcements but i plan on eventually using it for blog posts (once i figure out what i want to blog about...)"
+    },
+    {
+        "date_str": "2021 mar 04",
+        "date": "04 Mar 2021 11:40 CST",
+        "type": "site update",
+        "title": "rss feed now available",
+        "content": "some friends said i should add an rss feed for these news posts so here it is. please let me know if anything isn't working correctly"
     }
 ]
