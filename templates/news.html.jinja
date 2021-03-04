@@ -22,14 +22,11 @@
                 <h2 id="news-archive">news archive <a href=rss.xml><img src=img/rss.png alt="rss"></img></a></h2>
                 <div class="list-container">
                   <table class="news-list">
-                    {% for post in news %}
-                        {# skip the initial entry that just has comments and instructions #}
-                        {% if post.comment is undefined %}
-                        <tr>
-                          <td>{{ post.date_str }}</td>
-                          <td>{{ post.content }}</td>
-                        </tr>
-                        {% endif %}
+                    {% for post in news if post.comment is undefined %}
+                    <tr>
+                      <td>{{ post.date_str }}</td>
+                      <td>{{ post.content }}</td>
+                    </tr>
                     {% endfor %}
                   </table>
                 </div>

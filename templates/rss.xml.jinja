@@ -4,7 +4,7 @@
     <title>Vince Kaichan</title>
     <description>site updates and blog posts for vince kaichan</description>
     <link>https://vincekaichan.com</link>
-    {% for post in posts %}
+    {% for post in posts if post.comment is undefined %}
     <item>
       <title>{{ post.title }}</title>
       <description>{{ post.content }}</description>
