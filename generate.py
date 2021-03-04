@@ -29,9 +29,14 @@ if __name__ == '__main__':
             trim_blocks=True,
             lstrip_blocks=True,
     )
-    template = env.get_template('index.html.jinja')
 
-    rendered_page = template.render(news=news_list, albums=album_list, compilations=compo_list, commissions=commission_list, songs=song_list)
+    news_display_count = 5 # number of most recent posts to show on the homepage; the rest will be on the news page
+    homepage = env.get_template('index.html.jinja')
+    rendered_homepage = homepage.render(news=news_list, albums=album_list, compilations=compo_list, commissions=commission_list, songs=song_list, news_count=news_display_count)
+    with open('./index.html', 'w') as homepage_outfile:
+        homepage_outfile.write(rendered_homepage)
 
-    with open('./index.html', 'w') as outfile:
-        outfile.write(rendered_page)
+    news_archive = env.get_template('news.html.jinja')
+    rendered_news_archive = news_archive.render(news=news_list)
+    with open('./news.html', 'w') as news_outfile:
+        news_outfile.write(rendered_news_archive)

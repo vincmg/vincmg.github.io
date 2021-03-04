@@ -40,6 +40,11 @@ hr {
     width: 100%;
 }
 
+.small-link {
+    font-size: 14px;
+    padding: 10px;
+}
+
 .list-container {
     width: 90%;
     margin: 0 auto;

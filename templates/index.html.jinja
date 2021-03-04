@@ -30,7 +30,7 @@
                 <h2 id="news">news</h2>
                 <div class="list-container">
                   <table class="news-list">
-                    {% for post in news %}
+                    {% for post in news[:news_count+1] %}
                         {# skip the initial entry that just has comments and instructions #}
                         {% if post.date is defined and post.content is defined %}
                         <tr>
@@ -40,6 +40,8 @@
                         {% endif %}
                     {% endfor %}
                   </table>
+                  <br>
+                  <a href="news.html#news-archive" class="small-link">archive</a>
                 </div>
             </div>
             <br>
