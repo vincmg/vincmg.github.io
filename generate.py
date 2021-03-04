@@ -3,18 +3,14 @@
 import json
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-def render_page(jinja_env: Environment, template_filepath: str, **params) -> None:
+def generate_page(jinja_env: Environment, template_filepath: str, params: dict) -> None:
     assert(template_filepath.endswith('.jinja'))
-    page_url = template_filepath.rsplit('.', maxsplit=1)
-
-    # DEBUG
-    print(page_url) 
-    input()
-
+    page_url = template_filepath.rsplit('.', maxsplit=1)[0]
     page = env.get_template(template_filepath)
     rendered = page.render(**params)
     with open(page_url, 'w') as outfile:
         outfile.write(rendered)
+    print('generated page', page_url)
     
 
 if __name__ == '__main__':
@@ -46,18 +42,9 @@ if __name__ == '__main__':
     )
 
     news_display_count = 5 # number of most recent posts to show on the homepage; the rest will be on the news page
-    homepage = env.get_template('index.html.jinja')
-    rendered_homepage = homepage.render(news=news_list, albums=album_list, compilations=compo_list, commissions=commission_list, songs=song_list, news_count=news_display_count)
-    with open('./index.html', 'w') as homepage_outfile:
-        homepage_outfile.write(rendered_homepage)
+    generate_page(env, 'index.html.jinja', dict(news=news_list, albums=album_list, compilations=compo_list, commissions=commission_list, songs=song_list, news_count=news_display_count))
 
-    news_archive = env.get_template('news.html.jinja')
-    rendered_news_archive = news_archive.render(news=news_list)
-    with open('./news.html', 'w') as news_outfile:
-        news_outfile.write(rendered_news_archive)
+    generate_page(env, 'news.html.jinja', dict(news=news_list))
 
     rss_display_count = 1 # number of most recent posts to display in the rss feed on each update
-    rss = env.get_template('rss.xml.jinja')
-    rendered_rss = rss.render(posts=news_list[:rss_display_count])
-    with open('./rss.xml', 'w') as rss_outfile:
-        rss_outfile.write(rendered_rss)
+    generate_page(env, 'rss.xml.jinja', dict(posts=news_list[:rss_display_count]))
