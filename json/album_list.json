@@ -82,5 +82,12 @@
         "info": "made with renoise.\n    \n    tracklist:\n      1. where you go\n      2. eon (ago)\n      3. waiting for\n      4. nightmare\n      5. werk\n      6. alphonse\n      7. 9pm (bonus track)\n    ",
         "art": "img/lost_in_world_200px.jpg",
         "embed": "<iframe style=\"border: 0; width: 200px; height: 200px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2716039480/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/\" seamless><a href=\"http://vincekaichan.bandcamp.com/album/lost-in-world\">lost in world by Vince Kaichan</a></iframe>"
+    },
+    {
+        "date": "2021 mar 03",
+        "name": "lost in time",
+        "info": "made with renoise.\n\ntracklist:\n1. 1000 lives\n2. mesa\n3. hollow planet\n4. daybreak\n5.basement blue sky\n6. end of the world\n7. dreams",
+        "art": "img/lost_in_time_200px.png",
+        "embed": "<iframe style=\"border: 0; width: 200px; height: 200px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3210974065/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/\" seamless><a href=\"https://vincekaichan.bandcamp.com/album/lost-in-time\">lost in time by Vince Kaichan</a></iframe>"
     }
 ]
