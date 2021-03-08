@@ -29,5 +29,12 @@
         "type": "site update",
         "title": "new album: lost in time",
         "content": "<strong>new album!</strong> <a href=\"https://vincekaichan.bandcamp.com/album/lost-in-time\">lost in time</a>, you can also find it under the 'albums/EPs' section below. if you buy it on bandcamp, your purchase will be donated to <a href=\"https://www.formyblock.org\">My Block, My Hood, My City</a>, a nonprofit organization that helps underprivileged youth in chicago."
+    },
+    {
+        "date_str": "2021 mar 08",
+        "date": "08 Mar 2021 12:00 CST",
+        "type": "site update",
+        "title": "song sorting",
+        "content": "added the ability to sort tables by date or name, ascending and descending. click on the column header to sort by that column in ascending order, click it again to sort by descending order"
     }
 ]
