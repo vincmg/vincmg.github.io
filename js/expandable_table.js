@@ -1,4 +1,4 @@
-function toggle_list(id) {
+function toggle_table(id) {
   let element = document.getElementById(id);
   if (!element.style.display || element.style.display === "none") {
     element.style.display = "block";
@@ -30,7 +30,7 @@ window.onhashchange = unhide_table_then_jump;
 //document.getElementById("releases").style.display = 'none';
 //document.getElementById("compilations").style.display = 'none';
 
-document.getElementById("releases-toggle").onclick = () => { toggle_list("releases") };
-document.getElementById("compos-toggle").onclick = () => { toggle_list("compilations") };
-document.getElementById("misc-toggle").onclick = () => { toggle_list("misc-songs") };
-document.getElementById("commissions-toggle").onclick = () => { toggle_list("commissions") };
+document.getElementById("releases-toggle").onclick = () => { toggle_table("releases") };
+document.getElementById("compos-toggle").onclick = () => { toggle_table("compilations") };
+document.getElementById("misc-toggle").onclick = () => { toggle_table("misc-songs") };
+document.getElementById("commissions-toggle").onclick = () => { toggle_table("commissions") };
