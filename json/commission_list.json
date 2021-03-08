@@ -4,13 +4,13 @@
         "info": "written for a podcast series by <a href=\"https://octothorpic.com/\">octothorpic</a>",
         "art": "img/octothorpe_200px.jpg",
         "embed": "<iframe style=\"border: 0; width: 200px; height: 200px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2293678488/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/\" seamless><a href=\"http://octothorpic-music.bandcamp.com/album/breaking-news\">Breaking News! by Octothorpic</a></iframe>",
-        "date": 2019
+        "date": "2019 02 11"
     },
     {
         "name": "Gem Blenders Soundtrack",
         "info": "written for the <a href=\"https://www.kickstarter.com/projects/stevesekula/gem-blenders-the-card-game\">Gem Blenders Kickstarter Campaign</a>",
         "art": "img/gem_blenders_200px.jpg",
         "embed": "<iframe style=\"border: 0; width: 200px; height: 200px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1560225786/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/\" seamless><a href=\"http://vincekaichan.bandcamp.com/album/gem-blenders-soundtrack\">Gem Blenders Soundtrack by Vince Kaichan</a></iframe>",
-        "date": 2019
+        "date": "2019 11 01"
     }
 ]
