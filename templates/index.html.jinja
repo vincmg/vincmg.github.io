@@ -53,16 +53,16 @@
                 <div class="list-container">
                   <table id="releases" class="music-list">
                     <tr> 
-                      <th>date</th>
-                      <th>name</th>
+                      <th><a class="sort-key-column">date</a></th>
+                      <th><a class="sort-key-column">name</a></th>
                       <th>info</th>
                       <th>art <br> (click to play)</th>
                     </tr>
                     {% for album in albums %}
                     {# TODO TODO replace other characters that would make an invalid anchor link #}
                     <tr id="{{ album.name.replace(' ','-').lower() }}">
-                      <td>{{ album.date }}</td>
-                      <td>{{ album.name }}</td>
+                      <td date>{{ album.date }}</td>
+                      <td name>{{ album.name }}</td>
                       <td>{{ album.info.replace('\n', '<br>') }}</td>
                       <td>
                         <img class="album-art" id="album_{{ loop.index0 }}" src="{{ album.art }}" alt="{{ album.name }}"></img>
@@ -89,16 +89,16 @@
                 <div class="list-container">
                   <table id="compilations" class="music-list">
                     <tr> 
-                      <th>date</th>
-                      <th>compilation name</th>
+                      <th><a class="sort-key-column">date</a></th>
+                      <th><a class="sort-key-column">name</a></th>
                       <th>track title </th>
                       <th>art <br> (click to play)</th>
                     </tr>
                     {% for compo in compilations %}
                     {# TODO TODO replace other characters that would make an invalid anchor link #}
                     <tr id="{{ compo.name.replace(' ','-').lower() }}">
-                      <td>{{ compo.date }}</td>
-                      <td>{{ compo.name }}</td>
+                      <td date>{{ compo.date }}</td>
+                      <td name>{{ compo.name }}</td>
                       <td>{{ compo.info.replace('\n', '<br>') }}</td>
                       <td>
                         <img class="album-art" id="compo_{{ loop.index0 }}" src="{{ compo.art }}" alt="{{ compo.name }}"></img>
@@ -136,16 +136,16 @@
                 <div class="list-container">
                   <table id="commissions" class="music-list">
                     <tr> 
-                      <th>date</th>
-                      <th>name</th>
+                      <th><a class="sort-key-column">date</a></th>
+                      <th><a class="sort-key-column">name</a></th>
                       <th>info</th>
                       <th>art <br> (click to play)</th>
                     </tr>
                     {% for com in commissions %}
                     {# TODO TODO replace other characters that would make an invalid anchor link #}
                     <tr id="{{ com.name.replace(' ','-').lower() }}">
-                      <td>{{ com.date }}</td>
-                      <td>{{ com.name }}</td>
+                      <td date>{{ com.date }}</td>
+                      <td name>{{ com.name }}</td>
                       <td>{{ com.info.replace('\n', '<br>') }}</td>
                       <td>
                         <img class="album-art" id="com_{{ loop.index0 }}" src="{{ com.art }}" alt="{{ com.name }}"></img>
@@ -176,16 +176,16 @@
                 <div class="list-container">
                   <table id="misc-songs" class="music-list">
                     <tr> 
-                      <th>year</th>
-                      <th>name</th>
+                      <th><a class="sort-key-column">date</a></th>
+                      <th><a class="sort-key-column">name</a></th>
                       <th>info</th>
                       <th>link</th>
                     </tr>
                     {% for song in songs %}
                     {# TODO TODO replace other characters that would make an invalid anchor link #}
                     <tr id="{{ song.name.replace(' ','-').lower() }}">
-                      <td>{{ song.date }}</td>
-                      <td>{{ song.name }}</td>
+                      <td date>{{ song.date }}</td>
+                      <td name>{{ song.name }}</td>
                       <td>{{ song.info.replace('\n', '<br>') }}</td>
                       {% if song.link == None %}
                       <td>no download yet</td>
@@ -213,8 +213,9 @@
         </div>
         <button id="top-button" onclick="goto_top()">go to top</button>
 
-        <script type="text/javascript" src="js/footer.js" charset="utf-8"></script>
         <script type="text/javascript" src="js/expandable_table.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/table_sort_by_column.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/footer.js" charset="utf-8"></script>
         <script type="text/javascript" src="js/goto_top.js" charset="utf-8"></script>
     </body>
 </html>
