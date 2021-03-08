@@ -87,7 +87,7 @@ hr {
     margin: auto;
 }
 
-a[id*=toggle], a.sort-key-column {
+a[id*=toggle], th.sort-key-column {
     color: blue;
     cursor: pointer;
 }
