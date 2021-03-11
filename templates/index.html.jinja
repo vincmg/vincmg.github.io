@@ -55,6 +55,7 @@
                     <tr> 
                       <th date class="sort-key-column" sortordering="default">date</th>
                       <th name class="sort-key-column" sortordering="default">name</th>
+                      <th genre class="sort-key-column" sortordering="default">genre</th>
                       <th>info</th>
                       <th>art <br> (click to play)</th>
                     </tr>
@@ -63,6 +64,7 @@
                     <tr id="{{ album.name.replace(' ','-').lower() }}">
                       <td date>{{ album.date }}</td>
                       <td name>{{ album.name }}</td>
+                      <td genre>{{ album.genre }}</td>
                       <td>{{ album.info.replace('\n', '<br>') }}</td>
                       <td>
                         <img class="album-art" id="album_{{ loop.index0 }}" src="{{ album.art }}" alt="{{ album.name }}"></img>
@@ -91,6 +93,7 @@
                     <tr> 
                       <th date class="sort-key-column" sortordering="default">date</th>
                       <th name class="sort-key-column" sortordering="default">name</th>
+                      <th genre class="sort-key-column" sortordering="default">genre</th>
                       <th>track title </th>
                       <th>art <br> (click to play)</th>
                     </tr>
@@ -99,6 +102,7 @@
                     <tr id="{{ compo.name.replace(' ','-').lower() }}">
                       <td date>{{ compo.date }}</td>
                       <td name>{{ compo.name }}</td>
+                      <td genre>{{ compo.genre }}</td>
                       <td>{{ compo.info.replace('\n', '<br>') }}</td>
                       <td>
                         <img class="album-art" id="compo_{{ loop.index0 }}" src="{{ compo.art }}" alt="{{ compo.name }}"></img>
@@ -138,6 +142,7 @@
                     <tr> 
                       <th date class="sort-key-column" sortordering="default">date</th>
                       <th name class="sort-key-column" sortordering="default">name</th>
+                      <th genre class="sort-key-column" sortordering="default">genre</th>
                       <th>info</th>
                       <th>art <br> (click to play)</th>
                     </tr>
@@ -146,6 +151,7 @@
                     <tr id="{{ com.name.replace(' ','-').lower() }}">
                       <td date>{{ com.date }}</td>
                       <td name>{{ com.name }}</td>
+                      <td genre>{{ com.genre }}</td>
                       <td>{{ com.info.replace('\n', '<br>') }}</td>
                       <td>
                         <img class="album-art" id="com_{{ loop.index0 }}" src="{{ com.art }}" alt="{{ com.name }}"></img>
@@ -178,6 +184,7 @@
                     <tr> 
                       <th date class="sort-key-column" sortordering="default">date</th>
                       <th name class="sort-key-column" sortordering="default">name</th>
+                      <th genre class="sort-key-column" sortordering="default">genre</th>
                       <th>info</th>
                       <th>link</th>
                     </tr>
@@ -186,6 +193,7 @@
                     <tr id="{{ song.name.replace(' ','-').lower() }}">
                       <td date>{{ song.date }}</td>
                       <td name>{{ song.name }}</td>
+                      <td genre>{{ song.genre }}</td>
                       <td>{{ song.info.replace('\n', '<br>') }}</td>
                       {% if song.link == None %}
                       <td>no download yet</td>
