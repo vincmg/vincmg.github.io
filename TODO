@@ -4,12 +4,12 @@ TODOs
     - if a song is playing and the user clicks play on another song, pause the currently playing track
     - do this for bandcamp embeds too? if it's possible to send pause signal to the embedded player through js
 - make jinja template for long-form blogposts that looks consistent with the homepage
+
+DONE
 - simple genre tag/search/sort system for misc tracks
     - display genre in table column
     - a way for listeners to know what genre the song is before they play it
         - sort table by genre when there are multiple listed
-
-DONE
 - sort table by column when clicked, with a way to reset it
     - release date
     - alphabetical
