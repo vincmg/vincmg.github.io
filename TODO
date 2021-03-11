@@ -1,5 +1,8 @@
 TODOs
 
+- only allow 1 song to be played at a time
+    - if a song is playing and the user clicks play on another song, pause the currently playing track
+    - do this for bandcamp embeds too? if it's possible to send pause signal to the embedded player through js
 - make jinja template for long-form blogposts that looks consistent with the homepage
 - simple genre tag/search/sort system for misc tracks
     - sort table by column when clicked, with a way to reset it
