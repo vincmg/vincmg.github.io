@@ -61,7 +61,7 @@
                     </tr>
                     {% for album in albums %}
                     {# TODO TODO replace other characters that would make an invalid anchor link #}
-                    <tr id="{{ album.name.replace(' ','-').lower() }}">
+                    <tr id="entry_{{ album.name.replace(' ','-').lower() }}">
                       <td date>{{ album.date }}</td>
                       <td name>{{ album.name }}</td>
                       <td genre>{{ album.genre }}</td>
@@ -99,7 +99,7 @@
                     </tr>
                     {% for compo in compilations %}
                     {# TODO TODO replace other characters that would make an invalid anchor link #}
-                    <tr id="{{ compo.name.replace(' ','-').lower() }}">
+                    <tr id="entry_{{ compo.name.replace(' ','-').lower() }}">
                       <td date>{{ compo.date }}</td>
                       <td name>{{ compo.name }}</td>
                       <td genre>{{ compo.genre }}</td>
@@ -148,7 +148,7 @@
                     </tr>
                     {% for com in commissions %}
                     {# TODO TODO replace other characters that would make an invalid anchor link #}
-                    <tr id="{{ com.name.replace(' ','-').lower() }}">
+                    <tr id="entry_{{ com.name.replace(' ','-').lower() }}">
                       <td date>{{ com.date }}</td>
                       <td name>{{ com.name }}</td>
                       <td genre>{{ com.genre }}</td>
@@ -190,7 +190,7 @@
                     </tr>
                     {% for song in songs %}
                     {# TODO TODO replace other characters that would make an invalid anchor link #}
-                    <tr id="{{ song.name.replace(' ','-').lower() }}">
+                    <tr id="entry_{{ song.name.replace(' ','-').lower() }}">
                       <td date>{{ song.date }}</td>
                       <td name>{{ song.name }}</td>
                       <td genre>{{ song.genre }}</td>
@@ -198,7 +198,7 @@
                       {% if song.link == None %}
                       <td>no download yet</td>
                       {% else %}
-                      <td><audio controls src="{{ song.link }}" preload="none"></audio></td>
+                      <td><audio id="{{ song.name.replace(' ','-').lower() }}" controls src="{{ song.link }}" preload="none"></audio></td>
                       {% endif %}
                     </tr>
                     {% endfor %}
@@ -221,6 +221,7 @@
         </div>
         <button id="top-button" onclick="goto_top()">go to top</button>
 
+        <script type="text/javascript" src="js/audio_player.js" charset="utf-8"></script>
         <script type="text/javascript" src="js/expandable_table.js" charset="utf-8"></script>
         <script type="text/javascript" src="js/table_sort_by_column.js" charset="utf-8"></script>
         <script type="text/javascript" src="js/footer.js" charset="utf-8"></script>
