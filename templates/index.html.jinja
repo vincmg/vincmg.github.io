@@ -31,7 +31,7 @@
                 <h2 id="news">news <a href=rss.xml><img src=img/rss.png alt="rss"></img></a></h2>
                 <div class="list-container">
                   <table class="news-list">
-                    {% for post in news[:news_count+1] if post.comment is undefined %}
+                    {% for post in news[:news_count] if post.comment is undefined %}
                     <tr>
                       <td>{{ post.date_str }}</td>
                       <td>{{ post.content }}</td>
