@@ -102,5 +102,13 @@
         "info": "made with renoise.\n\ntracklist:\n1. 1000 lives\n2. mesa\n3. hollow planet\n4. daybreak\n5.basement blue sky\n6. end of the world\n7. dreams",
         "art": "img/lost_in_time_200px.png",
         "embed": "<iframe style=\"border: 0; width: 200px; height: 200px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3210974065/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/\" seamless><a href=\"https://vincekaichan.bandcamp.com/album/lost-in-time\">lost in time by Vince Kaichan</a></iframe>"
+    },
+    {
+        "date": "2021 08 27",
+        "name": "RSNNT CHMBR (animusic remix single)",
+        "genre": "digital fusion, electronic",
+        "info": "a rearrangement of the song <a href=\"https://www.youtube.com/watch?v=toXNVbvFXyk\">resonant chamber</a> by wayne lytle from Animusic 2.",
+        "art": "img/rsnnt_chmbr_200px.png",
+        "embed": "<iframe style=\"border: 0; width: 200px; height: 200px;\" src=\"https://bandcamp.com/EmbeddedPlayer/track=1153584040/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/\" seamless><a href=\"https://vincekaichan.bandcamp.com/track/rsnnt-chmbr\">RSNNT CHMBR by Vince Kaichan</a></iframe>"
     }
 ]
