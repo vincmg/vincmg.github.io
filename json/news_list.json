@@ -64,5 +64,12 @@
         "type": "site update",
         "title": "now on spotify",
         "content": "(more of) my music is <a href=https://open.spotify.com/artist/5H31dNFMWrZjicSiVIlOic>now on spotify</a>! and apple music and all the other streaming platforms. still in the process of uploading older albums but all my most recent releases are now available for streaming."
+    },
+    {
+        "date_str": "2021 oct 01",
+        "date": "01 Oct 2021 10:00 CST",
+        "type": "site update",
+        "title": "new album: lost in focus",
+        "content": "<strong>new album!</strong> <a href=\"https://vincekaichan.bandcamp.com/album/lost-in-focus\">lost in focus</a>, you can also find it under the 'albums/EPs' section below. this time i'll be donating the revenue to <a href=\"https://otcprojects.org\">Open The Circle</a>, a nonprofit that channels resources into footwork education and community organizing in Chicago."
     }
 ]
