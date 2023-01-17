@@ -118,5 +118,13 @@
         "info": "Vince Kaichan - Ether",
         "art": "img/staffcirc_vol7_200px.jpg",
         "embed": "<iframe style=\"border: 0; width: 200px; height: 200px; display: block; margin: auto;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2491403166/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=2224986760/transparent=true/\" seamless><a href=\"https://sexytoadsandfrogsfriendcircle.bandcamp.com/album/staffcirc-vol-7-terra-octava\">STAFFcirc vol. 7 - Terra Octava by Vince Kaichan</a></iframe>"
+    },
+    {
+        "date": "2022 06 23",
+        "name": "STAFFcirc vol. ε₀",
+        "genre": "electronic",
+        "info": "Vince Kaichan - juke exam",
+        "art": "img/staffcirc_vole0_200px.jpg",
+        "embed": "<iframe style=\"border: 0; width: 200px; height: 200px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3050638598/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/track=943812262/transparent=true/\" seamless><a href=\"https://sexytoadsandfrogsfriendcircle.bandcamp.com/album/staffcirc-vol-2\">STAFFcirc vol. ε₀ by Vince Kaichan</a></iframe>"
     }
 ]

@@ -1,5 +1,12 @@
 [
     {
+        "date": 2022,
+        "genre": "dance",
+        "link": "mp3/vince_kaichan_-_7_rings_bootleg.mp3",
+        "info": "impromptu remix of Ariana Grande - 7 rings",
+        "name": "7 rings (remix)"
+    },
+    {
         "date": 2019,
         "genre": "chiptune, dance",
         "link": "mp3/vince_kaichan_-_a_good_time.mp3",
@@ -411,6 +418,13 @@
         "link": "mp3/vince_kaichan_-_songbirds_playground.mp3",
         "info": "i wrote this one afternoon after watching some birds in the local park",
         "name": "songbirds' playground"
+    },
+    {
+        "date": 2022,
+        "genre": "electronic",
+        "link": "mp3/vince_kaichan_-_starspeed.mp3",
+        "info": "unreal tournament music",
+        "name": "starspeed"
     },
     {
         "date": 2014,
