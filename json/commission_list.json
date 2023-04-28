@@ -14,5 +14,13 @@
         "art": "img/gem_blenders_200px.jpg",
         "embed": "<iframe style=\"border: 0; width: 200px; height: 200px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1560225786/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/\" seamless><a href=\"http://vincekaichan.bandcamp.com/album/gem-blenders-soundtrack\">Gem Blenders Soundtrack by Vince Kaichan</a></iframe>",
         "date": "2019 11 01"
+    },
+    {
+        "name": "Gem Blenders Soundtrack 2",
+        "info": "written for the <a href=\"https://www.kickstarter.com/projects/stevesekula/gem-blenders-tcg\">second Gem Blenders Kickstarter campaign</a>",
+        "genre": "digital fusion, jazz",
+        "art": "img/gem_blenders_2023_200px.jpg",
+        "embed": "<iframe style=\"border: 0; width: 200px; height: 200px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=4000388364/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/\" seamless><a href=\"https://vincekaichan.bandcamp.com/album/gem-blenders-soundtrack-2\">Gem Blenders Soundtrack 2 by Vince Kaichan</a></iframe>",
+        "date": "2023 04 28"
     }
 ]
