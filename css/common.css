@@ -20,7 +20,7 @@ hr {
 }
 
 #Container {
-    width: 70%;
+    width: 80%;
     margin: auto;
     border-radius: 15px;
     background-color: #fcfcfc;
@@ -71,9 +71,11 @@ hr {
     display: none;
 }
 
-.music-list th:first-child{width: 24%}
+.music-list th:first-child{width: 15%}
+.music-list th:nth-child(2){width: 30%}
+.music-list th:nth-child(3){width: 20%}
+.music-list th:nth-child(4){width: 30%}
 .music-list th:last-child{width: 10%}
-.music-list th:not(:first-child):not(:last-child){width: 33%;}
 
 .music-list th, .music-list td {
     border: 1px solid black;
